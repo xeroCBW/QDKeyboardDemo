@@ -8,21 +8,29 @@
 
 #import "ViewController.h"
 
+#import "ViewController.h"
+#import "TestViewController.h"
+
+
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *nextButtob;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+
+-(void)viewDidLoad{
+    
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)nextButtonAction:(id)sender {
+    
+    TestViewController *test = [[TestViewController alloc]init];
+    [self.navigationController pushViewController:test animated:YES];
 }
 
 

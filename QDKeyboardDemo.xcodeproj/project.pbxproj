@@ -7,25 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6397A796A3948A06BDB924E7 /* libPods-QDKeyboardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 691E871C4D5BD12727C9F464 /* libPods-QDKeyboardDemo.a */; };
 		D0E79EF91F29CF5B00F6A357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79EF81F29CF5B00F6A357 /* main.m */; };
 		D0E79EFC1F29CF5B00F6A357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79EFB1F29CF5B00F6A357 /* AppDelegate.m */; };
 		D0E79EFF1F29CF5B00F6A357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79EFE1F29CF5B00F6A357 /* ViewController.m */; };
-		D0E79F021F29CF5B00F6A357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E79F001F29CF5B00F6A357 /* Main.storyboard */; };
 		D0E79F041F29CF5B00F6A357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E79F031F29CF5B00F6A357 /* Assets.xcassets */; };
 		D0E79F071F29CF5B00F6A357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E79F051F29CF5B00F6A357 /* LaunchScreen.storyboard */; };
+		D0E79F0F1F29CFF900F6A357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E79F0E1F29CFF900F6A357 /* Main.storyboard */; };
+		D0E79F121F29D02400F6A357 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F111F29D02400F6A357 /* TestViewController.m */; };
+		D0E79F351F29D03D00F6A357 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F161F29D03D00F6A357 /* UIImage+ImageWithColor.m */; };
+		D0E79F361F29D03D00F6A357 /* QDKeyBoardBasePad.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F1A1F29D03D00F6A357 /* QDKeyBoardBasePad.m */; };
+		D0E79F371F29D03D00F6A357 /* QDKeyboardNewNumPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F1C1F29D03D00F6A357 /* QDKeyboardNewNumPad.m */; };
+		D0E79F381F29D03D00F6A357 /* QDKeyboardNumPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F1E1F29D03D00F6A357 /* QDKeyboardNumPad.m */; };
+		D0E79F391F29D03D00F6A357 /* QDKeyboardSymbolPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F201F29D03D00F6A357 /* QDKeyboardSymbolPad.m */; };
+		D0E79F3A1F29D03D00F6A357 /* QDKeyboardWordPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F221F29D03D00F6A357 /* QDKeyboardWordPad.m */; };
+		D0E79F3B1F29D03D00F6A357 /* symbol.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0E79F241F29D03D00F6A357 /* symbol.plist */; };
+		D0E79F3C1F29D03D00F6A357 /* word.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0E79F251F29D03D00F6A357 /* word.plist */; };
+		D0E79F3D1F29D03D00F6A357 /* QDKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F271F29D03D00F6A357 /* QDKeyboard.m */; };
+		D0E79F3E1F29D03D00F6A357 /* CYRKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F2C1F29D03D00F6A357 /* CYRKeyboardButton.m */; };
+		D0E79F3F1F29D03D00F6A357 /* CYRKeyboardButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F2E1F29D03D00F6A357 /* CYRKeyboardButtonView.m */; };
+		D0E79F401F29D03D00F6A357 /* TurtleBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F301F29D03D00F6A357 /* TurtleBezierPath.m */; };
+		D0E79F411F29D03D00F6A357 /* QDKeyboardBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F321F29D03D00F6A357 /* QDKeyboardBtn.m */; };
+		D0E79F421F29D03D00F6A357 /* QDKeyBoardNormalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F341F29D03D00F6A357 /* QDKeyBoardNormalButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		691E871C4D5BD12727C9F464 /* libPods-QDKeyboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QDKeyboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4A9275D35457F9BD20731E /* Pods-QDKeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDKeyboardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QDKeyboardDemo/Pods-QDKeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D0E79EF41F29CF5B00F6A357 /* QDKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E79EF81F29CF5B00F6A357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0E79EFA1F29CF5B00F6A357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0E79EFB1F29CF5B00F6A357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D0E79EFD1F29CF5B00F6A357 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D0E79EFE1F29CF5B00F6A357 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D0E79F011F29CF5B00F6A357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0E79F031F29CF5B00F6A357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E79F061F29CF5B00F6A357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E79F081F29CF5B00F6A357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E79F0E1F29CFF900F6A357 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D0E79F101F29D02400F6A357 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D0E79F111F29D02400F6A357 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D0E79F151F29D03D00F6A357 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		D0E79F161F29D03D00F6A357 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		D0E79F191F29D03D00F6A357 /* QDKeyBoardBasePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDKeyBoardBasePad.h; sourceTree = "<group>"; };
+		D0E79F1A1F29D03D00F6A357 /* QDKeyBoardBasePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDKeyBoardBasePad.m; sourceTree = "<group>"; };
+		D0E79F1B1F29D03D00F6A357 /* QDKeyboardNewNumPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDKeyboardNewNumPad.h; sourceTree = "<group>"; };
+		D0E79F1C1F29D03D00F6A357 /* QDKeyboardNewNumPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDKeyboardNewNumPad.m; sourceTree = "<group>"; };
+		D0E79F1D1F29D03D00F6A357 /* QDKeyboardNumPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDKeyboardNumPad.h; sourceTree = "<group>"; };
+		D0E79F1E1F29D03D00F6A357 /* QDKeyboardNumPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDKeyboardNumPad.m; sourceTree = "<group>"; };
+		D0E79F1F1F29D03D00F6A357 /* QDKeyboardSymbolPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDKeyboardSymbolPad.h; sourceTree = "<group>"; };
+		D0E79F201F29D03D00F6A357 /* QDKeyboardSymbolPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDKeyboardSymbolPad.m; sourceTree = "<group>"; };
+		D0E79F211F29D03D00F6A357 /* QDKeyboardWordPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDKeyboardWordPad.h; sourceTree = "<group>"; };
+		D0E79F221F29D03D00F6A357 /* QDKeyboardWordPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDKeyboardWordPad.m; sourceTree = "<group>"; };
+		D0E79F241F29D03D00F6A357 /* symbol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = symbol.plist; sourceTree = "<group>"; };
+		D0E79F251F29D03D00F6A357 /* word.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = word.plist; sourceTree = "<group>"; };
+		D0E79F261F29D03D00F6A357 /* QDKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDKeyboard.h; sourceTree = "<group>"; };
+		D0E79F271F29D03D00F6A357 /* QDKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDKeyboard.m; sourceTree = "<group>"; };
+		D0E79F281F29D03D00F6A357 /* QHKeyBoradDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHKeyBoradDefine.h; sourceTree = "<group>"; };
+		D0E79F2B1F29D03D00F6A357 /* CYRKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButton.h; sourceTree = "<group>"; };
+		D0E79F2C1F29D03D00F6A357 /* CYRKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButton.m; sourceTree = "<group>"; };
+		D0E79F2D1F29D03D00F6A357 /* CYRKeyboardButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButtonView.h; sourceTree = "<group>"; };
+		D0E79F2E1F29D03D00F6A357 /* CYRKeyboardButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButtonView.m; sourceTree = "<group>"; };
+		D0E79F2F1F29D03D00F6A357 /* TurtleBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurtleBezierPath.h; sourceTree = "<group>"; };
+		D0E79F301F29D03D00F6A357 /* TurtleBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurtleBezierPath.m; sourceTree = "<group>"; };
+		D0E79F311F29D03D00F6A357 /* QDKeyboardBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDKeyboardBtn.h; sourceTree = "<group>"; };
+		D0E79F321F29D03D00F6A357 /* QDKeyboardBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDKeyboardBtn.m; sourceTree = "<group>"; };
+		D0E79F331F29D03D00F6A357 /* QDKeyBoardNormalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDKeyBoardNormalButton.h; sourceTree = "<group>"; };
+		D0E79F341F29D03D00F6A357 /* QDKeyBoardNormalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDKeyBoardNormalButton.m; sourceTree = "<group>"; };
+		F6CED991808311E1E61F9F7F /* Pods-QDKeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDKeyboardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QDKeyboardDemo/Pods-QDKeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +81,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6397A796A3948A06BDB924E7 /* libPods-QDKeyboardDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5968424B772CDE3E8FC83B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				691E871C4D5BD12727C9F464 /* libPods-QDKeyboardDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67BB2A327FD590AED88EB1AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B4A9275D35457F9BD20731E /* Pods-QDKeyboardDemo.debug.xcconfig */,
+				F6CED991808311E1E61F9F7F /* Pods-QDKeyboardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D0E79EEB1F29CF5B00F6A357 = {
 			isa = PBXGroup;
 			children = (
+				D0E79F131F29D03D00F6A357 /* KeyBoard */,
 				D0E79EF61F29CF5B00F6A357 /* QDKeyboardDemo */,
 				D0E79EF51F29CF5B00F6A357 /* Products */,
+				67BB2A327FD590AED88EB1AC /* Pods */,
+				5968424B772CDE3E8FC83B4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +131,9 @@
 				D0E79EFB1F29CF5B00F6A357 /* AppDelegate.m */,
 				D0E79EFD1F29CF5B00F6A357 /* ViewController.h */,
 				D0E79EFE1F29CF5B00F6A357 /* ViewController.m */,
-				D0E79F001F29CF5B00F6A357 /* Main.storyboard */,
+				D0E79F101F29D02400F6A357 /* TestViewController.h */,
+				D0E79F111F29D02400F6A357 /* TestViewController.m */,
+				D0E79F0E1F29CFF900F6A357 /* Main.storyboard */,
 				D0E79F031F29CF5B00F6A357 /* Assets.xcassets */,
 				D0E79F051F29CF5B00F6A357 /* LaunchScreen.storyboard */,
 				D0E79F081F29CF5B00F6A357 /* Info.plist */,
@@ -79,6 +150,80 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D0E79F131F29D03D00F6A357 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D0E79F141F29D03D00F6A357 /* category */,
+				D0E79F181F29D03D00F6A357 /* Pad */,
+				D0E79F231F29D03D00F6A357 /* plist */,
+				D0E79F261F29D03D00F6A357 /* QDKeyboard.h */,
+				D0E79F271F29D03D00F6A357 /* QDKeyboard.m */,
+				D0E79F281F29D03D00F6A357 /* QHKeyBoradDefine.h */,
+				D0E79F291F29D03D00F6A357 /* View */,
+			);
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		D0E79F141F29D03D00F6A357 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				D0E79F151F29D03D00F6A357 /* UIImage+ImageWithColor.h */,
+				D0E79F161F29D03D00F6A357 /* UIImage+ImageWithColor.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		D0E79F181F29D03D00F6A357 /* Pad */ = {
+			isa = PBXGroup;
+			children = (
+				D0E79F191F29D03D00F6A357 /* QDKeyBoardBasePad.h */,
+				D0E79F1A1F29D03D00F6A357 /* QDKeyBoardBasePad.m */,
+				D0E79F1B1F29D03D00F6A357 /* QDKeyboardNewNumPad.h */,
+				D0E79F1C1F29D03D00F6A357 /* QDKeyboardNewNumPad.m */,
+				D0E79F1D1F29D03D00F6A357 /* QDKeyboardNumPad.h */,
+				D0E79F1E1F29D03D00F6A357 /* QDKeyboardNumPad.m */,
+				D0E79F1F1F29D03D00F6A357 /* QDKeyboardSymbolPad.h */,
+				D0E79F201F29D03D00F6A357 /* QDKeyboardSymbolPad.m */,
+				D0E79F211F29D03D00F6A357 /* QDKeyboardWordPad.h */,
+				D0E79F221F29D03D00F6A357 /* QDKeyboardWordPad.m */,
+			);
+			path = Pad;
+			sourceTree = "<group>";
+		};
+		D0E79F231F29D03D00F6A357 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				D0E79F241F29D03D00F6A357 /* symbol.plist */,
+				D0E79F251F29D03D00F6A357 /* word.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		D0E79F291F29D03D00F6A357 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0E79F2A1F29D03D00F6A357 /* CYRKeyboardButton */,
+				D0E79F311F29D03D00F6A357 /* QDKeyboardBtn.h */,
+				D0E79F321F29D03D00F6A357 /* QDKeyboardBtn.m */,
+				D0E79F331F29D03D00F6A357 /* QDKeyBoardNormalButton.h */,
+				D0E79F341F29D03D00F6A357 /* QDKeyBoardNormalButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0E79F2A1F29D03D00F6A357 /* CYRKeyboardButton */ = {
+			isa = PBXGroup;
+			children = (
+				D0E79F2B1F29D03D00F6A357 /* CYRKeyboardButton.h */,
+				D0E79F2C1F29D03D00F6A357 /* CYRKeyboardButton.m */,
+				D0E79F2D1F29D03D00F6A357 /* CYRKeyboardButtonView.h */,
+				D0E79F2E1F29D03D00F6A357 /* CYRKeyboardButtonView.m */,
+				D0E79F2F1F29D03D00F6A357 /* TurtleBezierPath.h */,
+				D0E79F301F29D03D00F6A357 /* TurtleBezierPath.m */,
+			);
+			path = CYRKeyboardButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0E79F0B1F29CF5B00F6A357 /* Build configuration list for PBXNativeTarget "QDKeyboardDemo" */;
 			buildPhases = (
+				CC046E049DCDD5DABE96A3FD /* [CP] Check Pods Manifest.lock */,
 				D0E79EF01F29CF5B00F6A357 /* Sources */,
 				D0E79EF11F29CF5B00F6A357 /* Frameworks */,
 				D0E79EF21F29CF5B00F6A357 /* Resources */,
+				487AA4C99FD76418C67AE5A3 /* [CP] Embed Pods Frameworks */,
+				0D822517D160E30B486501F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +258,7 @@
 				TargetAttributes = {
 					D0E79EF31F29CF5B00F6A357 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y6E87B57HA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,36 +286,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E79F3B1F29D03D00F6A357 /* symbol.plist in Resources */,
+				D0E79F0F1F29CFF900F6A357 /* Main.storyboard in Resources */,
 				D0E79F071F29CF5B00F6A357 /* LaunchScreen.storyboard in Resources */,
 				D0E79F041F29CF5B00F6A357 /* Assets.xcassets in Resources */,
-				D0E79F021F29CF5B00F6A357 /* Main.storyboard in Resources */,
+				D0E79F3C1F29D03D00F6A357 /* word.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D822517D160E30B486501F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QDKeyboardDemo/Pods-QDKeyboardDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		487AA4C99FD76418C67AE5A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QDKeyboardDemo/Pods-QDKeyboardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC046E049DCDD5DABE96A3FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0E79EF01F29CF5B00F6A357 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E79F381F29D03D00F6A357 /* QDKeyboardNumPad.m in Sources */,
+				D0E79F391F29D03D00F6A357 /* QDKeyboardSymbolPad.m in Sources */,
+				D0E79F351F29D03D00F6A357 /* UIImage+ImageWithColor.m in Sources */,
+				D0E79F3D1F29D03D00F6A357 /* QDKeyboard.m in Sources */,
 				D0E79EFF1F29CF5B00F6A357 /* ViewController.m in Sources */,
+				D0E79F361F29D03D00F6A357 /* QDKeyBoardBasePad.m in Sources */,
+				D0E79F3F1F29D03D00F6A357 /* CYRKeyboardButtonView.m in Sources */,
+				D0E79F401F29D03D00F6A357 /* TurtleBezierPath.m in Sources */,
 				D0E79EFC1F29CF5B00F6A357 /* AppDelegate.m in Sources */,
+				D0E79F121F29D02400F6A357 /* TestViewController.m in Sources */,
+				D0E79F371F29D03D00F6A357 /* QDKeyboardNewNumPad.m in Sources */,
+				D0E79F3E1F29D03D00F6A357 /* CYRKeyboardButton.m in Sources */,
 				D0E79EF91F29CF5B00F6A357 /* main.m in Sources */,
+				D0E79F3A1F29D03D00F6A357 /* QDKeyboardWordPad.m in Sources */,
+				D0E79F421F29D03D00F6A357 /* QDKeyBoardNormalButton.m in Sources */,
+				D0E79F411F29D03D00F6A357 /* QDKeyboardBtn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0E79F001F29CF5B00F6A357 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0E79F011F29CF5B00F6A357 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0E79F051F29CF5B00F6A357 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,22 +476,26 @@
 		};
 		D0E79F0C1F29CF5B00F6A357 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4A9275D35457F9BD20731E /* Pods-QDKeyboardDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6E87B57HA;
 				INFOPLIST_FILE = QDKeyboardDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.QDKeyboardDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucsmy.QDKeyboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		D0E79F0D1F29CF5B00F6A357 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CED991808311E1E61F9F7F /* Pods-QDKeyboardDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6E87B57HA;
 				INFOPLIST_FILE = QDKeyboardDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.QDKeyboardDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ucsmy.QDKeyboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -311,6 +519,7 @@
 				D0E79F0D1F29CF5B00F6A357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

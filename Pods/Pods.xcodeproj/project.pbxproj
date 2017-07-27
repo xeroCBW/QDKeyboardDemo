@@ -1,0 +1,1342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B5EEDD253C0B01BD7B72D3C9EE4206 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD504F9C0F35F469F363B598B1AE8E6 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02497B4D2B4B8E85D9E0CB8C19DEC5F9 /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C931FCC5A9BF3E3D825F7819E8C4C5 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04DDE447BD23A242AFDB98079530B6FF /* Pods-QDKeyboardDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4FC0DA4CBF337FA0B2B4E76896FF1F /* Pods-QDKeyboardDemo-dummy.m */; };
+		05925630D8F4C3B45165B7632C7432C0 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F676EAF3C28C79741DCA837622BFA5BD /* IQKeyboardReturnKeyHandler.m */; };
+		080C4397B4D64AF70509A1918A4B3123 /* FBObjectiveCGraphElement.mm in Sources */ = {isa = PBXBuildFile; fileRef = F552E1F41653309D6C31AADDE9A0A353 /* FBObjectiveCGraphElement.mm */; };
+		0A51F101E665672CEE3564F22BEF39B4 /* FBObjectiveCGraphElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 355E9AEEA93BE2C0D0ABA68128F9D9B2 /* FBObjectiveCGraphElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		134FC60FAFF13893D34FCC2CDE67126F /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE73F1E5A80AD1701593DEAC094B098 /* IQPreviousNextView.m */; };
+		13741E53F1372CF80C97A84207179DF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		15BF4C4C4C8C514DE2C2881629B1C801 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE4573BA31AEC05DEB2D3C127D4F18 /* IQUIView+Hierarchy.m */; };
+		16FEF4DF88110E5145A4C7D954C91BB3 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6C2FF4BD6C9CF6892CEA891251DF1D /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1717480E393FFE88F751C0D3A6912F38 /* APNumberPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBA7EF66E2CA99238EC97460C3CFA7 /* APNumberPad-dummy.m */; };
+		17335BA1380AE6AED8CD25A44290798C /* FBBlockInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D78F811468A86546E5713A5BED3DA98 /* FBBlockInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17BC1848666973B0308253F04C70F0BF /* UINavigationController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2C259EAE4BEE116A1601071BF8BF75 /* UINavigationController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		195132C2DA66BD3AC18039534A418AF4 /* FBIvarReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB8564E3B177C034C5A941FA2470A8A /* FBIvarReference.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D4879B92EA825397EDCF3A5B09C5EF2 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AFBC57C1263C4A2CFFB8E089ABB498 /* IQTextView.m */; };
+		1D79EA95FF188871930BC9DB0EF76077 /* FBNodeEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 158B731A2A48BEFF202FBBC65E99F593 /* FBNodeEnumerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F4E38A56447A2A214F10261C4521567 /* FBRetainCycleUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D29711FD1B8BC4B6083DF449B2507F8 /* FBRetainCycleUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F78BD5984F89D675D4541D516D8C3D4 /* FBClassStrongLayoutHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DDCCC7127AEDC9E3A393B9FB08730A /* FBClassStrongLayoutHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2096CD6E3FA4BFF26DB9085F6A0EF44D /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = C98F7692FEE4C4D6D3B7C9335531E9EB /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		216E6D7ADF0FFF3318DB30C2CC565C5D /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3758D1EDEF2E09364E98320D86396C /* IQNSArray+Sort.m */; };
+		231F8E21B389D7F294D8231F016AC11A /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 915604AC042563CF8DADF2A200D86EB2 /* IQUIViewController+Additions.m */; };
+		2473EEC1DD96DA1BDB5854EBF13DA3D9 /* Struct.h in Headers */ = {isa = PBXBuildFile; fileRef = B86007CA5F262C0724C909B7E7D7432B /* Struct.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AB111D38BFC2D501249664984E1A48F /* FBObjectInStructReference.h in Headers */ = {isa = PBXBuildFile; fileRef = F784850E73DB15DEE06647BB8DA98D6C /* FBObjectInStructReference.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D62B803E161E9F5510ED0EAF293EB7F /* FBClassStrongLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB106F75C1A4E2F90214059F36199D3 /* FBClassStrongLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DBB2C804B04B105AFBC65BD957EB4EC /* UIApplication+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = D31BDC92537899E4CEC7B4048DF4DE09 /* UIApplication+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DFB6E39F596DD07CD47160B7DB89A5E /* APNumberPadStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = D252BE74592C8CBC2B410294B93AA106 /* APNumberPadStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ECBF4B38748E89D7FD450C8C56BEB1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
+		32170BF7817BCD2E27F114DF85BEC1FB /* FBRetainCycleDetector+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9E31FB5E441F7B75AD75A704DA0335 /* FBRetainCycleDetector+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3284B4F54AAD22766C0F8796748C35D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		359523501BCB0BE3148792F9C162DBD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		35B39A7A2A63892DCB722C1E1063E152 /* FBObjectiveCBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2CD6C4A98498754683034D9442DBD0 /* FBObjectiveCBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F3B76DE217F19E4AD7CB5847F23715 /* FBRetainCycleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 107F4B22D6F85ADCD2DCF3ECA199F368 /* FBRetainCycleUtils.m */; };
+		394E4786E43484A03A14B24EEEDDEB46 /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 56320B7464DEECB71BF0F430F3DBB4E9 /* UIApplication+MemoryLeak.m */; };
+		39A508CB9BEFAFD0CF396E6A8D20EF5C /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DD4EBDF3F79551FD06F4B22669F66 /* IQKeyboardManager-dummy.m */; };
+		39F5F6C87C17B76A8665D9C88FB7EC30 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B899C14645836CAFDBF8ECB78D0BA0F /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F9269F9F9D423C0AD26CB63768B9702 /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5BA785EB4EE28F578F1D07199983EE /* MLeakedObjectProxy.m */; };
+		40EDE0FCE5C311580FD5B7E4E041351D /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F49C6385C4F4200EDDDDF519615A72 /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F33D58D806327B7B7B0E9C9C483E0F /* FBObjectInStructReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E2EB8E0DBA444D7D00658719EBC62 /* FBObjectInStructReference.m */; };
+		431BE63046007ADB32C73EAE1A253965 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 0942B841F8986381C3A112038BA24C28 /* fishhook.c */; };
+		4B5FEB1B4D1FD21BBD4D89990C3A65F6 /* FBObjectGraphConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A525083CC8818E93D23D29918E69D23 /* FBObjectGraphConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C19EA5D51CE0CD0A47DA12FF723BA07 /* UITouch+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = D08EFC9A9E13404E50EECD69E6BCA914 /* UITouch+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C52458CC2344D63AAA4D257D43347D1 /* FBNodeEnumerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = BDB91DA9C5F5C5A6C2B45DFC0B5D0BDB /* FBNodeEnumerator.mm */; };
+		504C6A9CA3B9CFD4E2E2595036BC11F6 /* FBBlockStrongLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4AF2FCC676073CF1E9D3FEC0CE1757 /* FBBlockStrongLayout.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		50500B250A5ECC8303261CC19DE9B1FF /* Struct.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10C7082414D8AAC56EE34A33AAACD921 /* Struct.mm */; };
+		50B17934049197212C6158A0C8DABD81 /* UIView+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 9649A2A5A581EC875AF2126CFBCE8B3C /* UIView+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		564C355AC932F4CA88A75E1F428557D0 /* MLeaksMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = FE12A9F965DCECB0B189438831407EBA /* MLeaksMessenger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63D3C8904D575511B8E5E56551A83838 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = C791C199B00871A59D51FB2F6F2125B2 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A7504B1615A2F9906B9D87C4C2EA5BD /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 108335E6554B84A4E42492C47023A5D5 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B2E9D1E6DDF0D986360FA307A0C2F78 /* FBBlockStrongRelationDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 544F64C5509122B4579848DEEA83A370 /* FBBlockStrongRelationDetector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C0BBF3C08BB0B42E37C37CA4451C76E /* FBObjectGraphConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F21D8B11C05D29947EAC428D9C6818 /* FBObjectGraphConfiguration.m */; };
+		6C0C802617374C786CC7139203D20801 /* FBBlockStrongLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 22936B0D08CAFF58BA29F6FB714B6B27 /* FBBlockStrongLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		713927C8C7FA28F971FD5292555D3EC9 /* UITabBarController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDD03730B380A49A0FA8BAD3DCA9B1E /* UITabBarController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		718AEECC5A749D827255C157D0235773 /* FBStructEncodingParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 803E14037EE3ED6A91EB62343E37DAB0 /* FBStructEncodingParser.mm */; };
+		769C905D814E3186C69BAAC8D4E1EA0D /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F7CAEF273A52A20B0613573208E777 /* UITabBarController+MemoryLeak.m */; };
+		78C5700E07D002A99CAB0CB22497BDE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
+		79496299F9E33DB64F51E40E33405B2F /* FBAssociationManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8C0747A01BC0077AF7F97C2719069EEF /* FBAssociationManager.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7E360ED04F6EA05BCDA329191C514820 /* UITouch+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = B8333982BB5E810C8FB9399ED71A6751 /* UITouch+MemoryLeak.m */; };
+		82237F220EACE01BA5DF9B6A6B99659A /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 486E89B531533377C51306DC71246A9F /* UIView+MemoryLeak.m */; };
+		824CA9845309D126BC84B0140D5E8624 /* APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACAC24D310FDC303D674FCF1494211 /* APNumberPad.m */; };
+		8A1B5D1B15AE2A03C50F8BA730BC7B99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		8DDD9AE2B9EDFE9E587127E6ECDFA44E /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C264AFB93F9288D6B387CA07B35578A6 /* IQUIView+IQKeyboardToolbar.m */; };
+		9145A5D0D9C9E682E06F976BDA3A364C /* FBIvarReference.m in Sources */ = {isa = PBXBuildFile; fileRef = B881841D64121F89389DB5919A3EFBCB /* FBIvarReference.m */; };
+		91AEF94DFC71F2AA66CB0310A9280B24 /* Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD9BC29249704D0F8BA34D84632DBD3 /* Type.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96D1C5F9CEA571281C9401E194B425C7 /* APNumberButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 024A7A335310DA6F13E3E9D6392C673E /* APNumberButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97ECECDB9891F0320F610EBFFDDD42BD /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 77DC066596266C7926ECB56D097B60EC /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9AC4546D7D76789BE4580172B3ED50D8 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4BD087043D7C1D55207D4834405D21 /* IQToolbar.m */; };
+		9C0079311546383FCE4158E2D938FBB8 /* FBClassStrongLayoutHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3BFC89ADC8A53651CC0403108AD11F /* FBClassStrongLayoutHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E598F4B8C367DF0061C6F22761D534D /* FBStructEncodingParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D44DC27C8FBB8EAC273B1C3D929ECC /* FBStructEncodingParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F30CF3623BE9CF4C8E7BAD708DDD0F6 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15576427914039B470369A12248EEB /* IQUITextFieldView+Additions.m */; };
+		A1B868F66E6E2705FD6B4F4200FC5476 /* FBObjectReference.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8BEA7C3FBD552551086AE13B769D0B /* FBObjectReference.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1EAE5E58D9F2040BACBB482211EA611 /* UIPageViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CD85C2B0163E6C367BB3B5957C0DB2 /* UIPageViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6CAA1ED9CE5B74B4032DD9AF2148F92 /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FE94F675413065D3565B02C13653A2 /* UISplitViewController+MemoryLeak.m */; };
+		A838E16CC83CB17C1544E99ACBFBDA79 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A654E7BF20753136FA353ACFE290C7 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8939E6116FBA9F4912FCC3CB29F549C /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CEC01F9BE383694B58F0AD698B89A6 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB42211108BC25AC8151D49CB26C98E9 /* FBStandardGraphEdgeFilters.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B8536E80F42BC442F631F905CC8B9CA /* FBStandardGraphEdgeFilters.mm */; };
+		AB43F097B242078CC539D21528AEF1D4 /* FBObjectiveCGraphElement+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8815102E72063724E25F5510B6696A /* FBObjectiveCGraphElement+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF45E51794891FF141A6FC4F54CA8D0D /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21770AD061B1C266BC73675995BE2637 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFB419EFE60E91BEDE5927FE8BF36DB4 /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = D216366A4D16E0FB466EE2AA1A411176 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFF05CF1EF44A634F3CB81C5641DE41A /* FBClassStrongLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCC9959398A94071B23CE011451D5650 /* FBClassStrongLayout.mm */; };
+		B24AEB4999F36F67F80710C3A8B38198 /* FBStandardGraphEdgeFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = 085EB0552578DD7C709792EE314DEBFF /* FBStandardGraphEdgeFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B45F06D898A79EB79B9F0AFB92A6B614 /* APNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA9EB1E63C4FE2537C49710424F42B5 /* APNumberButton.m */; };
+		B4D9DC87F0331C972074EE6039436AA2 /* FBRetainCycleDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = D359EA02464AC9D481B26C1D4FAF5605 /* FBRetainCycleDetector.mm */; };
+		B855870A97C2E01523A09194A799B7CD /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5794CF78FAF3FAE64DFA66E38F794C /* UIPageViewController+MemoryLeak.m */; };
+		BC12241B094390F0F3D5EA4911EA4DF1 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3795ABD47A3353F2AA8B60810C815C91 /* IQUIScrollView+Additions.m */; };
+		BC8D1E1CA8BE2B419B7195E7A69E222B /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E44D406B182B6CE16A4CC8BC18B51E /* NSObject+MemoryLeak.m */; };
+		BCB77E95D1D2C7739AAC8284A057F871 /* FBAssociationManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991884388803A577AB1D0661A0F6B03 /* FBAssociationManager+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDAA02215E7C17941C8809B97DA8449E /* FBObjectiveCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F086DC0F314B54ACD6E37D985BDA89C0 /* FBObjectiveCBlock.m */; };
+		BDE55DB986952CED890714089FF520DA /* FBObjectiveCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C6FA93D2B8722A49485DCCD844C6C3 /* FBObjectiveCObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF34FCE367BAB9EC84BC5BDDC545CA6 /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = B340FE7C69AC0BADC266895F4DA6B8F2 /* UIViewController+MemoryLeak.m */; };
+		C4BB53EA5D7C40FF3A597C2A56DD714B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
+		C83D867C1FFD48E6E0BA6E4E12E4C82D /* FBObjectiveCNSCFTimer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F3F91712FAD7C225BAEC083782AFF936 /* FBObjectiveCNSCFTimer.mm */; };
+		C98C85B018F9C4074B540D3CCA7E55CC /* APNumberPadDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C2D0377739890916BE823739CB8F63 /* APNumberPadDefaultStyle.m */; };
+		CBC1B26411F9AAB9EA6515A6D5E41A77 /* MLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BF2FB5CDD461A72F15DE1C91E02287 /* MLeaksMessenger.m */; };
+		CD67D778272ECA25FE636FCEE4C010EE /* APNumberPad.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABDB9BE91954FF9125AC5F302339159 /* APNumberPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC456529F00D8491AC8A8616FC2BC65 /* FBAssociationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7FC15593313974A796FCE6CB288861 /* FBAssociationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF0E7F0BB66A225C73E9D0E5EE148769 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = 415AA5F41D8FFBA0A97B7B7B1E23EBF1 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF7AFBD61708A69B9725AE2B6BB16423 /* FBObjectiveCNSCFTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D00269B3196CA7173AC35EA365B60E /* FBObjectiveCNSCFTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFCFCAEC723F7C7203A5745AAB76C727 /* FBObjectiveCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C20B38216794F6CA9217AB5AD7E4CD2 /* FBObjectiveCObject.m */; };
+		D145F5C81176E920E1CE462D4B50D88D /* UIViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC49CD9BAA035C6459D4A761E9FB2E2 /* UIViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D35A2AF159DC59750024A4E0FE3C9268 /* MLeaksFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6D9975438ABD96EA0DD9446948026F /* MLeaksFinder-dummy.m */; };
+		D43444F9273BC242437DE518EE99F85D /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB982F76754C5071AE342D83A06733CB /* IQBarButtonItem.m */; };
+		D7143BA7BADF862AAE3DC1C30F72380F /* APNumberPadDefaultStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 74FB244D56193E0213941608A30A5100 /* APNumberPadDefaultStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8760B9674AEF13DDE8E9653EABA23C2 /* MLeakedObjectProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 774C38D4C905501E2B4118501D30DC56 /* MLeakedObjectProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF2FCF6E1C61ED1C24D3E9245B1338EE /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCAF5AF5D2F42892A6D47AA673D12FA /* IQKeyboardManager.m */; };
+		DF777C9C89EC416FC43CD2114B8BAC35 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7854198DED8CB896670D7A8CB6467D /* IQUIWindow+Hierarchy.m */; };
+		E1E1E46738C63269F76EA0B2F87C0311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		E2E27D0D8EFC3DBFB31EB805A9F40F46 /* UISplitViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7E148257ED16DA2AE0118326BD53C9 /* UISplitViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3EA008B59CE78D5B393437366769BC0 /* BaseType.h in Headers */ = {isa = PBXBuildFile; fileRef = 542DA4DD0B8AD592522EA6863C100246 /* BaseType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4EF420CD43C3F081D49C037296B0DC1 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3518398AC8C86D3C8C4F4CA3250916 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA3BFDB32E6DEA9B0E162E09E9293352 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3A044BE44F15F20CC1783325434410 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA73394A1F93D67EB80BD16F44D2753A /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0A61C7AB340F6E49C84812FA4A42B8 /* IQTitleBarButtonItem.m */; };
+		EACEC6F4009C4374A9041907300AD7D6 /* MLeaksFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DADB9945967D7BDE1BA01FDA97BE137 /* MLeaksFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDDE7064989C1242DF4A6EC18A95F347 /* FBRetainCycleDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3AA6F90117A3C51FAE546C7888B044 /* FBRetainCycleDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F20082A4085F5E3007801440DBBE995C /* FBBlockStrongRelationDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5ED62EB4CC996F9A15659B69E20375 /* FBBlockStrongRelationDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F2B1873F3C7CFD66578CF42B6C51BF04 /* NSObject+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 7033CACF297E1FDD092DF317F54A1EC4 /* NSObject+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4202ACC8086A5646CD46762130BC7AC /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 33551ACDBFA73FEC1B7E21EBEEF33CEF /* UINavigationController+MemoryLeak.m */; };
+		F9CE54098A2452FD14D27607572AA1C1 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D34A93A03678E3A6B1C5D1BE1A7279 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDC8320DCDA880A45D17834E374F921A /* FBRetainCycleDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F297D6C72522BED8D39FB2AFCA51BFD2 /* FBRetainCycleDetector-dummy.m */; };
+		FE8743C13A7169E4CEA64B067F7ACBE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DF9089D30F8B03B09D7CDA6CD13803E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273537CB954A9131CBB041254924E3EF;
+			remoteInfo = APNumberPad;
+		};
+		6EA6FA9447E5AED90D534A7C30EC8E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC139CEF10BCCB200972B4617F3CA14E;
+			remoteInfo = MLeaksFinder;
+		};
+		7B0FB4C6C0B3BB3067207623C9F0E458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9D6EADD8E530631B349B6FDC56DA82;
+			remoteInfo = FBRetainCycleDetector;
+		};
+		81F16EB1A45A1E78BB110079000CDCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9650B5ADCE86F1A055FAFC635284BDB5;
+			remoteInfo = IQKeyboardManager;
+		};
+		D50C683B6F86C5425696DFC4691F36C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9D6EADD8E530631B349B6FDC56DA82;
+			remoteInfo = FBRetainCycleDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0121EFEEF7B95E15CFC0C9A5EEF5DFEF /* Pods-QDKeyboardDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDKeyboardDemo-resources.sh"; sourceTree = "<group>"; };
+		01C6FA93D2B8722A49485DCCD844C6C3 /* FBObjectiveCObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCObject.h; path = FBRetainCycleDetector/Graph/FBObjectiveCObject.h; sourceTree = "<group>"; };
+		022E2EB8E0DBA444D7D00658719EBC62 /* FBObjectInStructReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectInStructReference.m; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectInStructReference.m; sourceTree = "<group>"; };
+		024A7A335310DA6F13E3E9D6392C673E /* APNumberButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberButton.h; path = APNumberPad/APNumberPad/APNumberButton.h; sourceTree = "<group>"; };
+		085EB0552578DD7C709792EE314DEBFF /* FBStandardGraphEdgeFilters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBStandardGraphEdgeFilters.h; path = FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.h; sourceTree = "<group>"; };
+		0942B841F8986381C3A112038BA24C28 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		096E08212ED9D4FEAC544E5A2AD8EAB0 /* APNumberPad.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = APNumberPad.bundle; path = APNumberPad/APNumberPad.bundle; sourceTree = "<group>"; };
+		0A7FC15593313974A796FCE6CB288861 /* FBAssociationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAssociationManager.h; path = FBRetainCycleDetector/Associations/FBAssociationManager.h; sourceTree = "<group>"; };
+		0A9DD4EBDF3F79551FD06F4B22669F66 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		0B2CD6C4A98498754683034D9442DBD0 /* FBObjectiveCBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCBlock.h; path = FBRetainCycleDetector/Graph/FBObjectiveCBlock.h; sourceTree = "<group>"; };
+		0C3BFC89ADC8A53651CC0403108AD11F /* FBClassStrongLayoutHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBClassStrongLayoutHelpers.h; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayoutHelpers.h; sourceTree = "<group>"; };
+		0E3518398AC8C86D3C8C4F4CA3250916 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		0EE1CE30A1860E775BB3C2841D802C6D /* APNumberPad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APNumberPad-prefix.pch"; sourceTree = "<group>"; };
+		107F4B22D6F85ADCD2DCF3ECA199F368 /* FBRetainCycleUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBRetainCycleUtils.m; path = FBRetainCycleDetector/FBRetainCycleUtils.m; sourceTree = "<group>"; };
+		108335E6554B84A4E42492C47023A5D5 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		10C7082414D8AAC56EE34A33AAACD921 /* Struct.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = Struct.mm; path = FBRetainCycleDetector/Layout/Classes/Parser/Struct.mm; sourceTree = "<group>"; };
+		158B731A2A48BEFF202FBBC65E99F593 /* FBNodeEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNodeEnumerator.h; path = FBRetainCycleDetector/Detector/FBNodeEnumerator.h; sourceTree = "<group>"; };
+		15CD85C2B0163E6C367BB3B5957C0DB2 /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPageViewController+MemoryLeak.h"; path = "MLeaksFinder/UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		17629AA606B00BB67EE8E7EB74CB62FC /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIQKeyboardManager.a; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCAF5AF5D2F42892A6D47AA673D12FA /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		1D3AA6F90117A3C51FAE546C7888B044 /* FBRetainCycleDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRetainCycleDetector.h; path = FBRetainCycleDetector/Detector/FBRetainCycleDetector.h; sourceTree = "<group>"; };
+		1D4FC0DA4CBF337FA0B2B4E76896FF1F /* Pods-QDKeyboardDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QDKeyboardDemo-dummy.m"; sourceTree = "<group>"; };
+		20F49C6385C4F4200EDDDDF519615A72 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		21770AD061B1C266BC73675995BE2637 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		22936B0D08CAFF58BA29F6FB714B6B27 /* FBBlockStrongLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockStrongLayout.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongLayout.h; sourceTree = "<group>"; };
+		23698FA07F9A72D728245537C49DAFC5 /* Pods-QDKeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDKeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		28D44DC27C8FBB8EAC273B1C3D929ECC /* FBStructEncodingParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBStructEncodingParser.h; path = FBRetainCycleDetector/Layout/Classes/Parser/FBStructEncodingParser.h; sourceTree = "<group>"; };
+		2BD9BC29249704D0F8BA34D84632DBD3 /* Type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.h; path = FBRetainCycleDetector/Layout/Classes/Parser/Type.h; sourceTree = "<group>"; };
+		2CFE6823FBDF2F67138456F96CDC8386 /* Pods-QDKeyboardDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QDKeyboardDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33551ACDBFA73FEC1B7E21EBEEF33CEF /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+MemoryLeak.m"; path = "MLeaksFinder/UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		355E9AEEA93BE2C0D0ABA68128F9D9B2 /* FBObjectiveCGraphElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCGraphElement.h; path = FBRetainCycleDetector/Graph/FBObjectiveCGraphElement.h; sourceTree = "<group>"; };
+		37597F313A7ED9DE9D030364C086E448 /* FBRetainCycleDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBRetainCycleDetector-prefix.pch"; sourceTree = "<group>"; };
+		3795ABD47A3353F2AA8B60810C815C91 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		37AFBC57C1263C4A2CFFB8E089ABB498 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		3B6D9975438ABD96EA0DD9446948026F /* MLeaksFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLeaksFinder-dummy.m"; sourceTree = "<group>"; };
+		415AA5F41D8FFBA0A97B7B7B1E23EBF1 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		41D00269B3196CA7173AC35EA365B60E /* FBObjectiveCNSCFTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectiveCNSCFTimer.h; path = FBRetainCycleDetector/Graph/Specialization/FBObjectiveCNSCFTimer.h; sourceTree = "<group>"; };
+		44FE94F675413065D3565B02C13653A2 /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISplitViewController+MemoryLeak.m"; path = "MLeaksFinder/UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		486E89B531533377C51306DC71246A9F /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MemoryLeak.m"; path = "MLeaksFinder/UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		4898C354E589C644515061039355EDC2 /* Pods-QDKeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDKeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4991884388803A577AB1D0661A0F6B03 /* FBAssociationManager+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBAssociationManager+Internal.h"; path = "FBRetainCycleDetector/Associations/Internal/FBAssociationManager+Internal.h"; sourceTree = "<group>"; };
+		49C2D0377739890916BE823739CB8F63 /* APNumberPadDefaultStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APNumberPadDefaultStyle.m; path = APNumberPad/APNumberPad/APNumberPadDefaultStyle.m; sourceTree = "<group>"; };
+		4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		535BE68611F4B12661FC45E0C98EB79C /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		53CEC01F9BE383694B58F0AD698B89A6 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		542DA4DD0B8AD592522EA6863C100246 /* BaseType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseType.h; path = FBRetainCycleDetector/Layout/Classes/Parser/BaseType.h; sourceTree = "<group>"; };
+		544F64C5509122B4579848DEEA83A370 /* FBBlockStrongRelationDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBBlockStrongRelationDetector.m; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongRelationDetector.m; sourceTree = "<group>"; };
+		56320B7464DEECB71BF0F430F3DBB4E9 /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+MemoryLeak.m"; path = "MLeaksFinder/UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		5A2C259EAE4BEE116A1601071BF8BF75 /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+MemoryLeak.h"; path = "MLeaksFinder/UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		5ABDB9BE91954FF9125AC5F302339159 /* APNumberPad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberPad.h; path = APNumberPad/APNumberPad/APNumberPad.h; sourceTree = "<group>"; };
+		5C2BE9AC6B3D5BD051B780788689A6DA /* MLeaksFinder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLeaksFinder.xcconfig; sourceTree = "<group>"; };
+		5D1C82DECA5699B2E8F4BF8FB9A7D0BE /* libAPNumberPad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAPNumberPad.a; path = libAPNumberPad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F15576427914039B470369A12248EEB /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		69F7CAEF273A52A20B0613573208E777 /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+MemoryLeak.m"; path = "MLeaksFinder/UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		6A525083CC8818E93D23D29918E69D23 /* FBObjectGraphConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectGraphConfiguration.h; path = FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.h; sourceTree = "<group>"; };
+		6B8536E80F42BC442F631F905CC8B9CA /* FBStandardGraphEdgeFilters.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBStandardGraphEdgeFilters.mm; path = FBRetainCycleDetector/Filtering/FBStandardGraphEdgeFilters.mm; sourceTree = "<group>"; };
+		6BC49CD9BAA035C6459D4A761E9FB2E2 /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MemoryLeak.h"; path = "MLeaksFinder/UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		6E7E148257ED16DA2AE0118326BD53C9 /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISplitViewController+MemoryLeak.h"; path = "MLeaksFinder/UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		6F29DD50595B65EFA1A882A2DB44D087 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		7033CACF297E1FDD092DF317F54A1EC4 /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MemoryLeak.h"; path = "MLeaksFinder/NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		74FB244D56193E0213941608A30A5100 /* APNumberPadDefaultStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberPadDefaultStyle.h; path = APNumberPad/APNumberPad/APNumberPadDefaultStyle.h; sourceTree = "<group>"; };
+		774C38D4C905501E2B4118501D30DC56 /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeakedObjectProxy.h; path = MLeaksFinder/MLeakedObjectProxy.h; sourceTree = "<group>"; };
+		77DC066596266C7926ECB56D097B60EC /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		792165F2CA033667D6F57205316D40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A6C2FF4BD6C9CF6892CEA891251DF1D /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		7C20B38216794F6CA9217AB5AD7E4CD2 /* FBObjectiveCObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectiveCObject.m; path = FBRetainCycleDetector/Graph/FBObjectiveCObject.m; sourceTree = "<group>"; };
+		7D78F811468A86546E5713A5BED3DA98 /* FBBlockInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockInterface.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockInterface.h; sourceTree = "<group>"; };
+		7DADB9945967D7BDE1BA01FDA97BE137 /* MLeaksFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksFinder.h; path = MLeaksFinder/MLeaksFinder.h; sourceTree = "<group>"; };
+		7EB8564E3B177C034C5A941FA2470A8A /* FBIvarReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBIvarReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.h; sourceTree = "<group>"; };
+		803E14037EE3ED6A91EB62343E37DAB0 /* FBStructEncodingParser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBStructEncodingParser.mm; path = FBRetainCycleDetector/Layout/Classes/Parser/FBStructEncodingParser.mm; sourceTree = "<group>"; };
+		82D34A93A03678E3A6B1C5D1BE1A7279 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		84C00EF0A8AE5E3165B58459A635A7E6 /* libFBRetainCycleDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBRetainCycleDetector.a; path = libFBRetainCycleDetector.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA9EB1E63C4FE2537C49710424F42B5 /* APNumberButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APNumberButton.m; path = APNumberPad/APNumberPad/APNumberButton.m; sourceTree = "<group>"; };
+		8B5BA785EB4EE28F578F1D07199983EE /* MLeakedObjectProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLeakedObjectProxy.m; path = MLeaksFinder/MLeakedObjectProxy.m; sourceTree = "<group>"; };
+		8B899C14645836CAFDBF8ECB78D0BA0F /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		8C0747A01BC0077AF7F97C2719069EEF /* FBAssociationManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBAssociationManager.mm; path = FBRetainCycleDetector/Associations/FBAssociationManager.mm; sourceTree = "<group>"; };
+		8C24A0004BF81CE59B66E897E8EBF55F /* APNumberPad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APNumberPad.xcconfig; sourceTree = "<group>"; };
+		8D29711FD1B8BC4B6083DF449B2507F8 /* FBRetainCycleUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRetainCycleUtils.h; path = FBRetainCycleDetector/FBRetainCycleUtils.h; sourceTree = "<group>"; };
+		8E8815102E72063724E25F5510B6696A /* FBObjectiveCGraphElement+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBObjectiveCGraphElement+Internal.h"; path = "FBRetainCycleDetector/Graph/Internal/FBObjectiveCGraphElement+Internal.h"; sourceTree = "<group>"; };
+		915604AC042563CF8DADF2A200D86EB2 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9649A2A5A581EC875AF2126CFBCE8B3C /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MemoryLeak.h"; path = "MLeaksFinder/UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		9FD504F9C0F35F469F363B598B1AE8E6 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		9FE73F1E5A80AD1701593DEAC094B098 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
+		9FEE4573BA31AEC05DEB2D3C127D4F18 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		A2BEF4DAFC802A688FDD72B2FC957029 /* MLeaksFinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLeaksFinder-prefix.pch"; sourceTree = "<group>"; };
+		A3E9E73DEE9E919747282ACFCB511019 /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		A9CBA7EF66E2CA99238EC97460C3CFA7 /* APNumberPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APNumberPad-dummy.m"; sourceTree = "<group>"; };
+		ABB106F75C1A4E2F90214059F36199D3 /* FBClassStrongLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBClassStrongLayout.h; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayout.h; sourceTree = "<group>"; };
+		ACDD03730B380A49A0FA8BAD3DCA9B1E /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+MemoryLeak.h"; path = "MLeaksFinder/UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		AD7854198DED8CB896670D7A8CB6467D /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		AE5ED62EB4CC996F9A15659B69E20375 /* FBBlockStrongRelationDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBBlockStrongRelationDetector.h; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongRelationDetector.h; sourceTree = "<group>"; };
+		B340FE7C69AC0BADC266895F4DA6B8F2 /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MemoryLeak.m"; path = "MLeaksFinder/UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		B7DDCCC7127AEDC9E3A393B9FB08730A /* FBClassStrongLayoutHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBClassStrongLayoutHelpers.m; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayoutHelpers.m; sourceTree = "<group>"; };
+		B7F394629817D418478077945A84E950 /* Pods-QDKeyboardDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QDKeyboardDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8333982BB5E810C8FB9399ED71A6751 /* UITouch+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch+MemoryLeak.m"; path = "MLeaksFinder/UITouch+MemoryLeak.m"; sourceTree = "<group>"; };
+		B86007CA5F262C0724C909B7E7D7432B /* Struct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Struct.h; path = FBRetainCycleDetector/Layout/Classes/Parser/Struct.h; sourceTree = "<group>"; };
+		B881841D64121F89389DB5919A3EFBCB /* FBIvarReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBIvarReference.m; path = FBRetainCycleDetector/Layout/Classes/Reference/FBIvarReference.m; sourceTree = "<group>"; };
+		BCC9959398A94071B23CE011451D5650 /* FBClassStrongLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBClassStrongLayout.mm; path = FBRetainCycleDetector/Layout/Classes/FBClassStrongLayout.mm; sourceTree = "<group>"; };
+		BDB91DA9C5F5C5A6C2B45DFC0B5D0BDB /* FBNodeEnumerator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBNodeEnumerator.mm; path = FBRetainCycleDetector/Detector/FBNodeEnumerator.mm; sourceTree = "<group>"; };
+		C264AFB93F9288D6B387CA07B35578A6 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		C791C199B00871A59D51FB2F6F2125B2 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		C8A654E7BF20753136FA353ACFE290C7 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		C98F7692FEE4C4D6D3B7C9335531E9EB /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		CB982F76754C5071AE342D83A06733CB /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		D08EFC9A9E13404E50EECD69E6BCA914 /* UITouch+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch+MemoryLeak.h"; path = "MLeaksFinder/UITouch+MemoryLeak.h"; sourceTree = "<group>"; };
+		D13845A56D496D4CF79F2DDAF6771274 /* Pods-QDKeyboardDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDKeyboardDemo-frameworks.sh"; sourceTree = "<group>"; };
+		D1BF2FB5CDD461A72F15DE1C91E02287 /* MLeaksMessenger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLeaksMessenger.m; path = MLeaksFinder/MLeaksMessenger.m; sourceTree = "<group>"; };
+		D216366A4D16E0FB466EE2AA1A411176 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		D252BE74592C8CBC2B410294B93AA106 /* APNumberPadStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APNumberPadStyle.h; path = APNumberPad/APNumberPad/APNumberPadStyle.h; sourceTree = "<group>"; };
+		D31BDC92537899E4CEC7B4048DF4DE09 /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+MemoryLeak.h"; path = "MLeaksFinder/UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
+		D359EA02464AC9D481B26C1D4FAF5605 /* FBRetainCycleDetector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBRetainCycleDetector.mm; path = FBRetainCycleDetector/Detector/FBRetainCycleDetector.mm; sourceTree = "<group>"; };
+		D6C931FCC5A9BF3E3D825F7819E8C4C5 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		DD53E7BAC9B7406D19485ABA28A16F3C /* FBRetainCycleDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBRetainCycleDetector.xcconfig; sourceTree = "<group>"; };
+		DD59ED39199C82787AA9B384FB190FE8 /* libMLeaksFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMLeaksFinder.a; path = libMLeaksFinder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5794CF78FAF3FAE64DFA66E38F794C /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPageViewController+MemoryLeak.m"; path = "MLeaksFinder/UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		E5F21D8B11C05D29947EAC428D9C6818 /* FBObjectGraphConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectGraphConfiguration.m; path = FBRetainCycleDetector/Graph/FBObjectGraphConfiguration.m; sourceTree = "<group>"; };
+		EC8BEA7C3FBD552551086AE13B769D0B /* FBObjectReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectReference.h; sourceTree = "<group>"; };
+		ECABF98C13818A3109211E3EA25C7B75 /* libPods-QDKeyboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QDKeyboardDemo.a"; path = "libPods-QDKeyboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3A044BE44F15F20CC1783325434410 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		F086DC0F314B54ACD6E37D985BDA89C0 /* FBObjectiveCBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBObjectiveCBlock.m; path = FBRetainCycleDetector/Graph/FBObjectiveCBlock.m; sourceTree = "<group>"; };
+		F297D6C72522BED8D39FB2AFCA51BFD2 /* FBRetainCycleDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBRetainCycleDetector-dummy.m"; sourceTree = "<group>"; };
+		F3F91712FAD7C225BAEC083782AFF936 /* FBObjectiveCNSCFTimer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBObjectiveCNSCFTimer.mm; path = FBRetainCycleDetector/Graph/Specialization/FBObjectiveCNSCFTimer.mm; sourceTree = "<group>"; };
+		F552E1F41653309D6C31AADDE9A0A353 /* FBObjectiveCGraphElement.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FBObjectiveCGraphElement.mm; path = FBRetainCycleDetector/Graph/FBObjectiveCGraphElement.mm; sourceTree = "<group>"; };
+		F676EAF3C28C79741DCA837622BFA5BD /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		F784850E73DB15DEE06647BB8DA98D6C /* FBObjectInStructReference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjectInStructReference.h; path = FBRetainCycleDetector/Layout/Classes/Reference/FBObjectInStructReference.h; sourceTree = "<group>"; };
+		F7ACAC24D310FDC303D674FCF1494211 /* APNumberPad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APNumberPad.m; path = APNumberPad/APNumberPad/APNumberPad.m; sourceTree = "<group>"; };
+		F8E44D406B182B6CE16A4CC8BC18B51E /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MemoryLeak.m"; path = "MLeaksFinder/NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		FC9E31FB5E441F7B75AD75A704DA0335 /* FBRetainCycleDetector+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBRetainCycleDetector+Internal.h"; path = "FBRetainCycleDetector/Detector/FBRetainCycleDetector+Internal.h"; sourceTree = "<group>"; };
+		FD3758D1EDEF2E09364E98320D86396C /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		FD4AF2FCC676073CF1E9D3FEC0CE1757 /* FBBlockStrongLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBBlockStrongLayout.m; path = FBRetainCycleDetector/Layout/Blocks/FBBlockStrongLayout.m; sourceTree = "<group>"; };
+		FE12A9F965DCECB0B189438831407EBA /* MLeaksMessenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksMessenger.h; path = MLeaksFinder/MLeaksMessenger.h; sourceTree = "<group>"; };
+		FF0A61C7AB340F6E49C84812FA4A42B8 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		FF4BD087043D7C1D55207D4834405D21 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		304BE8E8A1CD6D0A65F67B9405E33C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13741E53F1372CF80C97A84207179DF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F27DEBA4611E9AE6E3805AD3AF29C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BB53EA5D7C40FF3A597C2A56DD714B /* CoreGraphics.framework in Frameworks */,
+				3284B4F54AAD22766C0F8796748C35D2 /* Foundation.framework in Frameworks */,
+				78C5700E07D002A99CAB0CB22497BDE7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E967F8756567A9F18DB15CD14AA1B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359523501BCB0BE3148792F9C162DBD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18C39C703E41795D5EB6EA9D9B78D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E1E46738C63269F76EA0B2F87C0311 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B04F4754F962B5C28827F9129BFE2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8743C13A7169E4CEA64B067F7ACBE5 /* CoreGraphics.framework in Frameworks */,
+				8A1B5D1B15AE2A03C50F8BA730BC7B99 /* Foundation.framework in Frameworks */,
+				2ECBF4B38748E89D7FD450C8C56BEB1D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B6ACE39E298FD075D8405625385A94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD53E7BAC9B7406D19485ABA28A16F3C /* FBRetainCycleDetector.xcconfig */,
+				F297D6C72522BED8D39FB2AFCA51BFD2 /* FBRetainCycleDetector-dummy.m */,
+				37597F313A7ED9DE9D030364C086E448 /* FBRetainCycleDetector-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBRetainCycleDetector";
+			sourceTree = "<group>";
+		};
+		0C26DA21FB70B4E4E61984CC89999A6D /* FBRetainCycleDetector */ = {
+			isa = PBXGroup;
+			children = (
+				542DA4DD0B8AD592522EA6863C100246 /* BaseType.h */,
+				0A7FC15593313974A796FCE6CB288861 /* FBAssociationManager.h */,
+				8C0747A01BC0077AF7F97C2719069EEF /* FBAssociationManager.mm */,
+				4991884388803A577AB1D0661A0F6B03 /* FBAssociationManager+Internal.h */,
+				7D78F811468A86546E5713A5BED3DA98 /* FBBlockInterface.h */,
+				22936B0D08CAFF58BA29F6FB714B6B27 /* FBBlockStrongLayout.h */,
+				FD4AF2FCC676073CF1E9D3FEC0CE1757 /* FBBlockStrongLayout.m */,
+				AE5ED62EB4CC996F9A15659B69E20375 /* FBBlockStrongRelationDetector.h */,
+				544F64C5509122B4579848DEEA83A370 /* FBBlockStrongRelationDetector.m */,
+				ABB106F75C1A4E2F90214059F36199D3 /* FBClassStrongLayout.h */,
+				BCC9959398A94071B23CE011451D5650 /* FBClassStrongLayout.mm */,
+				0C3BFC89ADC8A53651CC0403108AD11F /* FBClassStrongLayoutHelpers.h */,
+				B7DDCCC7127AEDC9E3A393B9FB08730A /* FBClassStrongLayoutHelpers.m */,
+				7EB8564E3B177C034C5A941FA2470A8A /* FBIvarReference.h */,
+				B881841D64121F89389DB5919A3EFBCB /* FBIvarReference.m */,
+				158B731A2A48BEFF202FBBC65E99F593 /* FBNodeEnumerator.h */,
+				BDB91DA9C5F5C5A6C2B45DFC0B5D0BDB /* FBNodeEnumerator.mm */,
+				6A525083CC8818E93D23D29918E69D23 /* FBObjectGraphConfiguration.h */,
+				E5F21D8B11C05D29947EAC428D9C6818 /* FBObjectGraphConfiguration.m */,
+				F784850E73DB15DEE06647BB8DA98D6C /* FBObjectInStructReference.h */,
+				022E2EB8E0DBA444D7D00658719EBC62 /* FBObjectInStructReference.m */,
+				0B2CD6C4A98498754683034D9442DBD0 /* FBObjectiveCBlock.h */,
+				F086DC0F314B54ACD6E37D985BDA89C0 /* FBObjectiveCBlock.m */,
+				355E9AEEA93BE2C0D0ABA68128F9D9B2 /* FBObjectiveCGraphElement.h */,
+				F552E1F41653309D6C31AADDE9A0A353 /* FBObjectiveCGraphElement.mm */,
+				8E8815102E72063724E25F5510B6696A /* FBObjectiveCGraphElement+Internal.h */,
+				41D00269B3196CA7173AC35EA365B60E /* FBObjectiveCNSCFTimer.h */,
+				F3F91712FAD7C225BAEC083782AFF936 /* FBObjectiveCNSCFTimer.mm */,
+				01C6FA93D2B8722A49485DCCD844C6C3 /* FBObjectiveCObject.h */,
+				7C20B38216794F6CA9217AB5AD7E4CD2 /* FBObjectiveCObject.m */,
+				EC8BEA7C3FBD552551086AE13B769D0B /* FBObjectReference.h */,
+				1D3AA6F90117A3C51FAE546C7888B044 /* FBRetainCycleDetector.h */,
+				D359EA02464AC9D481B26C1D4FAF5605 /* FBRetainCycleDetector.mm */,
+				FC9E31FB5E441F7B75AD75A704DA0335 /* FBRetainCycleDetector+Internal.h */,
+				8D29711FD1B8BC4B6083DF449B2507F8 /* FBRetainCycleUtils.h */,
+				107F4B22D6F85ADCD2DCF3ECA199F368 /* FBRetainCycleUtils.m */,
+				085EB0552578DD7C709792EE314DEBFF /* FBStandardGraphEdgeFilters.h */,
+				6B8536E80F42BC442F631F905CC8B9CA /* FBStandardGraphEdgeFilters.mm */,
+				28D44DC27C8FBB8EAC273B1C3D929ECC /* FBStructEncodingParser.h */,
+				803E14037EE3ED6A91EB62343E37DAB0 /* FBStructEncodingParser.mm */,
+				0942B841F8986381C3A112038BA24C28 /* fishhook.c */,
+				77DC066596266C7926ECB56D097B60EC /* fishhook.h */,
+				B86007CA5F262C0724C909B7E7D7432B /* Struct.h */,
+				10C7082414D8AAC56EE34A33AAACD921 /* Struct.mm */,
+				2BD9BC29249704D0F8BA34D84632DBD3 /* Type.h */,
+				04B6ACE39E298FD075D8405625385A94 /* Support Files */,
+			);
+			name = FBRetainCycleDetector;
+			path = FBRetainCycleDetector;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2126E80937E86089E8C2645204E53C7E /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				D6C931FCC5A9BF3E3D825F7819E8C4C5 /* IQBarButtonItem.h */,
+				CB982F76754C5071AE342D83A06733CB /* IQBarButtonItem.m */,
+				7A6C2FF4BD6C9CF6892CEA891251DF1D /* IQKeyboardManager.h */,
+				1BCAF5AF5D2F42892A6D47AA673D12FA /* IQKeyboardManager.m */,
+				82D34A93A03678E3A6B1C5D1BE1A7279 /* IQKeyboardManagerConstants.h */,
+				EE3A044BE44F15F20CC1783325434410 /* IQKeyboardManagerConstantsInternal.h */,
+				53CEC01F9BE383694B58F0AD698B89A6 /* IQKeyboardReturnKeyHandler.h */,
+				F676EAF3C28C79741DCA837622BFA5BD /* IQKeyboardReturnKeyHandler.m */,
+				415AA5F41D8FFBA0A97B7B7B1E23EBF1 /* IQNSArray+Sort.h */,
+				FD3758D1EDEF2E09364E98320D86396C /* IQNSArray+Sort.m */,
+				21770AD061B1C266BC73675995BE2637 /* IQPreviousNextView.h */,
+				9FE73F1E5A80AD1701593DEAC094B098 /* IQPreviousNextView.m */,
+				8B899C14645836CAFDBF8ECB78D0BA0F /* IQTextView.h */,
+				37AFBC57C1263C4A2CFFB8E089ABB498 /* IQTextView.m */,
+				0E3518398AC8C86D3C8C4F4CA3250916 /* IQTitleBarButtonItem.h */,
+				FF0A61C7AB340F6E49C84812FA4A42B8 /* IQTitleBarButtonItem.m */,
+				C8A654E7BF20753136FA353ACFE290C7 /* IQToolbar.h */,
+				FF4BD087043D7C1D55207D4834405D21 /* IQToolbar.m */,
+				D216366A4D16E0FB466EE2AA1A411176 /* IQUIScrollView+Additions.h */,
+				3795ABD47A3353F2AA8B60810C815C91 /* IQUIScrollView+Additions.m */,
+				C98F7692FEE4C4D6D3B7C9335531E9EB /* IQUITextFieldView+Additions.h */,
+				5F15576427914039B470369A12248EEB /* IQUITextFieldView+Additions.m */,
+				108335E6554B84A4E42492C47023A5D5 /* IQUIView+Hierarchy.h */,
+				9FEE4573BA31AEC05DEB2D3C127D4F18 /* IQUIView+Hierarchy.m */,
+				9FD504F9C0F35F469F363B598B1AE8E6 /* IQUIView+IQKeyboardToolbar.h */,
+				C264AFB93F9288D6B387CA07B35578A6 /* IQUIView+IQKeyboardToolbar.m */,
+				C791C199B00871A59D51FB2F6F2125B2 /* IQUIViewController+Additions.h */,
+				915604AC042563CF8DADF2A200D86EB2 /* IQUIViewController+Additions.m */,
+				20F49C6385C4F4200EDDDDF519615A72 /* IQUIWindow+Hierarchy.h */,
+				AD7854198DED8CB896670D7A8CB6467D /* IQUIWindow+Hierarchy.m */,
+				2F19B9340FDB482017CFEBC2D318B938 /* Resources */,
+				563BF1682A6E47D68C7EAC19CC7BC9B6 /* Support Files */,
+			);
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */,
+				792165F2CA033667D6F57205316D40A1 /* Foundation.framework */,
+				695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2F19B9340FDB482017CFEBC2D318B938 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F29DD50595B65EFA1A882A2DB44D087 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4EEAEC6AC23089EC82AD598B3CC8142F /* APNumberPad */ = {
+			isa = PBXGroup;
+			children = (
+				024A7A335310DA6F13E3E9D6392C673E /* APNumberButton.h */,
+				8AA9EB1E63C4FE2537C49710424F42B5 /* APNumberButton.m */,
+				5ABDB9BE91954FF9125AC5F302339159 /* APNumberPad.h */,
+				F7ACAC24D310FDC303D674FCF1494211 /* APNumberPad.m */,
+				74FB244D56193E0213941608A30A5100 /* APNumberPadDefaultStyle.h */,
+				49C2D0377739890916BE823739CB8F63 /* APNumberPadDefaultStyle.m */,
+				D252BE74592C8CBC2B410294B93AA106 /* APNumberPadStyle.h */,
+				AC23CD63FCA01248710E91321BAD2611 /* Resources */,
+				507CD08A0B198EC7334C2DC58E5289B6 /* Support Files */,
+			);
+			name = APNumberPad;
+			path = APNumberPad;
+			sourceTree = "<group>";
+		};
+		507CD08A0B198EC7334C2DC58E5289B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C24A0004BF81CE59B66E897E8EBF55F /* APNumberPad.xcconfig */,
+				A9CBA7EF66E2CA99238EC97460C3CFA7 /* APNumberPad-dummy.m */,
+				0EE1CE30A1860E775BB3C2841D802C6D /* APNumberPad-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APNumberPad";
+			sourceTree = "<group>";
+		};
+		563BF1682A6E47D68C7EAC19CC7BC9B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3E9E73DEE9E919747282ACFCB511019 /* IQKeyboardManager.xcconfig */,
+				0A9DD4EBDF3F79551FD06F4B22669F66 /* IQKeyboardManager-dummy.m */,
+				535BE68611F4B12661FC45E0C98EB79C /* IQKeyboardManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				C9BB2BD36F2547235841907DBCC732E0 /* Pods */,
+				9B0FB1053760CA42CC12959AF8F583C2 /* Products */,
+				83AF9BD84995265B656C2591BEE8C991 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83AF9BD84995265B656C2591BEE8C991 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B86D3174B8F27852B9B52C3578C6CB4C /* Pods-QDKeyboardDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8AD6B4FB98A77EC32098700EF0CDB261 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C2BE9AC6B3D5BD051B780788689A6DA /* MLeaksFinder.xcconfig */,
+				3B6D9975438ABD96EA0DD9446948026F /* MLeaksFinder-dummy.m */,
+				A2BEF4DAFC802A688FDD72B2FC957029 /* MLeaksFinder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MLeaksFinder";
+			sourceTree = "<group>";
+		};
+		8E6CB28621A3C75808077388E20DC8E4 /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				774C38D4C905501E2B4118501D30DC56 /* MLeakedObjectProxy.h */,
+				8B5BA785EB4EE28F578F1D07199983EE /* MLeakedObjectProxy.m */,
+				7DADB9945967D7BDE1BA01FDA97BE137 /* MLeaksFinder.h */,
+				FE12A9F965DCECB0B189438831407EBA /* MLeaksMessenger.h */,
+				D1BF2FB5CDD461A72F15DE1C91E02287 /* MLeaksMessenger.m */,
+				7033CACF297E1FDD092DF317F54A1EC4 /* NSObject+MemoryLeak.h */,
+				F8E44D406B182B6CE16A4CC8BC18B51E /* NSObject+MemoryLeak.m */,
+				D31BDC92537899E4CEC7B4048DF4DE09 /* UIApplication+MemoryLeak.h */,
+				56320B7464DEECB71BF0F430F3DBB4E9 /* UIApplication+MemoryLeak.m */,
+				5A2C259EAE4BEE116A1601071BF8BF75 /* UINavigationController+MemoryLeak.h */,
+				33551ACDBFA73FEC1B7E21EBEEF33CEF /* UINavigationController+MemoryLeak.m */,
+				15CD85C2B0163E6C367BB3B5957C0DB2 /* UIPageViewController+MemoryLeak.h */,
+				DF5794CF78FAF3FAE64DFA66E38F794C /* UIPageViewController+MemoryLeak.m */,
+				6E7E148257ED16DA2AE0118326BD53C9 /* UISplitViewController+MemoryLeak.h */,
+				44FE94F675413065D3565B02C13653A2 /* UISplitViewController+MemoryLeak.m */,
+				ACDD03730B380A49A0FA8BAD3DCA9B1E /* UITabBarController+MemoryLeak.h */,
+				69F7CAEF273A52A20B0613573208E777 /* UITabBarController+MemoryLeak.m */,
+				D08EFC9A9E13404E50EECD69E6BCA914 /* UITouch+MemoryLeak.h */,
+				B8333982BB5E810C8FB9399ED71A6751 /* UITouch+MemoryLeak.m */,
+				9649A2A5A581EC875AF2126CFBCE8B3C /* UIView+MemoryLeak.h */,
+				486E89B531533377C51306DC71246A9F /* UIView+MemoryLeak.m */,
+				6BC49CD9BAA035C6459D4A761E9FB2E2 /* UIViewController+MemoryLeak.h */,
+				B340FE7C69AC0BADC266895F4DA6B8F2 /* UIViewController+MemoryLeak.m */,
+				8AD6B4FB98A77EC32098700EF0CDB261 /* Support Files */,
+			);
+			name = MLeaksFinder;
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
+		9B0FB1053760CA42CC12959AF8F583C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D1C82DECA5699B2E8F4BF8FB9A7D0BE /* libAPNumberPad.a */,
+				84C00EF0A8AE5E3165B58459A635A7E6 /* libFBRetainCycleDetector.a */,
+				17629AA606B00BB67EE8E7EB74CB62FC /* libIQKeyboardManager.a */,
+				DD59ED39199C82787AA9B384FB190FE8 /* libMLeaksFinder.a */,
+				ECABF98C13818A3109211E3EA25C7B75 /* libPods-QDKeyboardDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC23CD63FCA01248710E91321BAD2611 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				096E08212ED9D4FEAC544E5A2AD8EAB0 /* APNumberPad.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B86D3174B8F27852B9B52C3578C6CB4C /* Pods-QDKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2CFE6823FBDF2F67138456F96CDC8386 /* Pods-QDKeyboardDemo-acknowledgements.markdown */,
+				B7F394629817D418478077945A84E950 /* Pods-QDKeyboardDemo-acknowledgements.plist */,
+				1D4FC0DA4CBF337FA0B2B4E76896FF1F /* Pods-QDKeyboardDemo-dummy.m */,
+				D13845A56D496D4CF79F2DDAF6771274 /* Pods-QDKeyboardDemo-frameworks.sh */,
+				0121EFEEF7B95E15CFC0C9A5EEF5DFEF /* Pods-QDKeyboardDemo-resources.sh */,
+				23698FA07F9A72D728245537C49DAFC5 /* Pods-QDKeyboardDemo.debug.xcconfig */,
+				4898C354E589C644515061039355EDC2 /* Pods-QDKeyboardDemo.release.xcconfig */,
+			);
+			name = "Pods-QDKeyboardDemo";
+			path = "Target Support Files/Pods-QDKeyboardDemo";
+			sourceTree = "<group>";
+		};
+		C9BB2BD36F2547235841907DBCC732E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EEAEC6AC23089EC82AD598B3CC8142F /* APNumberPad */,
+				0C26DA21FB70B4E4E61984CC89999A6D /* FBRetainCycleDetector */,
+				2126E80937E86089E8C2645204E53C7E /* IQKeyboardManager */,
+				8E6CB28621A3C75808077388E20DC8E4 /* MLeaksFinder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29AAB4BCE0845BB840E7A3ADDC0BC6A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02497B4D2B4B8E85D9E0CB8C19DEC5F9 /* IQBarButtonItem.h in Headers */,
+				16FEF4DF88110E5145A4C7D954C91BB3 /* IQKeyboardManager.h in Headers */,
+				F9CE54098A2452FD14D27607572AA1C1 /* IQKeyboardManagerConstants.h in Headers */,
+				EA3BFDB32E6DEA9B0E162E09E9293352 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				A8939E6116FBA9F4912FCC3CB29F549C /* IQKeyboardReturnKeyHandler.h in Headers */,
+				CF0E7F0BB66A225C73E9D0E5EE148769 /* IQNSArray+Sort.h in Headers */,
+				AF45E51794891FF141A6FC4F54CA8D0D /* IQPreviousNextView.h in Headers */,
+				39F5F6C87C17B76A8665D9C88FB7EC30 /* IQTextView.h in Headers */,
+				E4EF420CD43C3F081D49C037296B0DC1 /* IQTitleBarButtonItem.h in Headers */,
+				A838E16CC83CB17C1544E99ACBFBDA79 /* IQToolbar.h in Headers */,
+				AFB419EFE60E91BEDE5927FE8BF36DB4 /* IQUIScrollView+Additions.h in Headers */,
+				2096CD6E3FA4BFF26DB9085F6A0EF44D /* IQUITextFieldView+Additions.h in Headers */,
+				6A7504B1615A2F9906B9D87C4C2EA5BD /* IQUIView+Hierarchy.h in Headers */,
+				00B5EEDD253C0B01BD7B72D3C9EE4206 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				63D3C8904D575511B8E5E56551A83838 /* IQUIViewController+Additions.h in Headers */,
+				40EDE0FCE5C311580FD5B7E4E041351D /* IQUIWindow+Hierarchy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4697834E9747B6B5790811BFCBE093A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8760B9674AEF13DDE8E9653EABA23C2 /* MLeakedObjectProxy.h in Headers */,
+				EACEC6F4009C4374A9041907300AD7D6 /* MLeaksFinder.h in Headers */,
+				564C355AC932F4CA88A75E1F428557D0 /* MLeaksMessenger.h in Headers */,
+				F2B1873F3C7CFD66578CF42B6C51BF04 /* NSObject+MemoryLeak.h in Headers */,
+				2DBB2C804B04B105AFBC65BD957EB4EC /* UIApplication+MemoryLeak.h in Headers */,
+				17BC1848666973B0308253F04C70F0BF /* UINavigationController+MemoryLeak.h in Headers */,
+				A1EAE5E58D9F2040BACBB482211EA611 /* UIPageViewController+MemoryLeak.h in Headers */,
+				E2E27D0D8EFC3DBFB31EB805A9F40F46 /* UISplitViewController+MemoryLeak.h in Headers */,
+				713927C8C7FA28F971FD5292555D3EC9 /* UITabBarController+MemoryLeak.h in Headers */,
+				4C19EA5D51CE0CD0A47DA12FF723BA07 /* UITouch+MemoryLeak.h in Headers */,
+				50B17934049197212C6158A0C8DABD81 /* UIView+MemoryLeak.h in Headers */,
+				D145F5C81176E920E1CE462D4B50D88D /* UIViewController+MemoryLeak.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6419DFD8F3814AB37E0249C49F7B4264 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D1C5F9CEA571281C9401E194B425C7 /* APNumberButton.h in Headers */,
+				CD67D778272ECA25FE636FCEE4C010EE /* APNumberPad.h in Headers */,
+				D7143BA7BADF862AAE3DC1C30F72380F /* APNumberPadDefaultStyle.h in Headers */,
+				2DFB6E39F596DD07CD47160B7DB89A5E /* APNumberPadStyle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A123319333F8B3F1FB8179E2C82AB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EA008B59CE78D5B393437366769BC0 /* BaseType.h in Headers */,
+				BCB77E95D1D2C7739AAC8284A057F871 /* FBAssociationManager+Internal.h in Headers */,
+				CDC456529F00D8491AC8A8616FC2BC65 /* FBAssociationManager.h in Headers */,
+				17335BA1380AE6AED8CD25A44290798C /* FBBlockInterface.h in Headers */,
+				6C0C802617374C786CC7139203D20801 /* FBBlockStrongLayout.h in Headers */,
+				F20082A4085F5E3007801440DBBE995C /* FBBlockStrongRelationDetector.h in Headers */,
+				2D62B803E161E9F5510ED0EAF293EB7F /* FBClassStrongLayout.h in Headers */,
+				9C0079311546383FCE4158E2D938FBB8 /* FBClassStrongLayoutHelpers.h in Headers */,
+				195132C2DA66BD3AC18039534A418AF4 /* FBIvarReference.h in Headers */,
+				1D79EA95FF188871930BC9DB0EF76077 /* FBNodeEnumerator.h in Headers */,
+				4B5FEB1B4D1FD21BBD4D89990C3A65F6 /* FBObjectGraphConfiguration.h in Headers */,
+				2AB111D38BFC2D501249664984E1A48F /* FBObjectInStructReference.h in Headers */,
+				35B39A7A2A63892DCB722C1E1063E152 /* FBObjectiveCBlock.h in Headers */,
+				AB43F097B242078CC539D21528AEF1D4 /* FBObjectiveCGraphElement+Internal.h in Headers */,
+				0A51F101E665672CEE3564F22BEF39B4 /* FBObjectiveCGraphElement.h in Headers */,
+				CF7AFBD61708A69B9725AE2B6BB16423 /* FBObjectiveCNSCFTimer.h in Headers */,
+				BDE55DB986952CED890714089FF520DA /* FBObjectiveCObject.h in Headers */,
+				A1B868F66E6E2705FD6B4F4200FC5476 /* FBObjectReference.h in Headers */,
+				32170BF7817BCD2E27F114DF85BEC1FB /* FBRetainCycleDetector+Internal.h in Headers */,
+				EDDE7064989C1242DF4A6EC18A95F347 /* FBRetainCycleDetector.h in Headers */,
+				1F4E38A56447A2A214F10261C4521567 /* FBRetainCycleUtils.h in Headers */,
+				B24AEB4999F36F67F80710C3A8B38198 /* FBStandardGraphEdgeFilters.h in Headers */,
+				9E598F4B8C367DF0061C6F22761D534D /* FBStructEncodingParser.h in Headers */,
+				97ECECDB9891F0320F610EBFFDDD42BD /* fishhook.h in Headers */,
+				2473EEC1DD96DA1BDB5854EBF13DA3D9 /* Struct.h in Headers */,
+				91AEF94DFC71F2AA66CB0310A9280B24 /* Type.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		273537CB954A9131CBB041254924E3EF /* APNumberPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745A21CC29837052FA26B190C5A9E994 /* Build configuration list for PBXNativeTarget "APNumberPad" */;
+			buildPhases = (
+				CC3D2330F91DAB603D575C188A345A43 /* Sources */,
+				B18C39C703E41795D5EB6EA9D9B78D87 /* Frameworks */,
+				6419DFD8F3814AB37E0249C49F7B4264 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APNumberPad;
+			productName = APNumberPad;
+			productReference = 5D1C82DECA5699B2E8F4BF8FB9A7D0BE /* libAPNumberPad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9650B5ADCE86F1A055FAFC635284BDB5 /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7541B338C29A841F18C894A4BC467CAC /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				3748F1E26AD1E44AB999B3F3C0A44526 /* Sources */,
+				4F27DEBA4611E9AE6E3805AD3AF29C62 /* Frameworks */,
+				29AAB4BCE0845BB840E7A3ADDC0BC6A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = 17629AA606B00BB67EE8E7EB74CB62FC /* libIQKeyboardManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC139CEF10BCCB200972B4617F3CA14E /* MLeaksFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFCACCE7364EC7F86DAF625072B1695 /* Build configuration list for PBXNativeTarget "MLeaksFinder" */;
+			buildPhases = (
+				0DDD5C9DC76B2C94157A920D3C55344B /* Sources */,
+				304BE8E8A1CD6D0A65F67B9405E33C3E /* Frameworks */,
+				4697834E9747B6B5790811BFCBE093A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABC5697527E29B8D278DA0C9B660632 /* PBXTargetDependency */,
+			);
+			name = MLeaksFinder;
+			productName = MLeaksFinder;
+			productReference = DD59ED39199C82787AA9B384FB190FE8 /* libMLeaksFinder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF9D6EADD8E530631B349B6FDC56DA82 /* FBRetainCycleDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259FE69886D71D4163FC508CF5F099B1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector" */;
+			buildPhases = (
+				4EDD866159690F865A1B14A18C3D753B /* Sources */,
+				C8B04F4754F962B5C28827F9129BFE2E /* Frameworks */,
+				E7A123319333F8B3F1FB8179E2C82AB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBRetainCycleDetector;
+			productName = FBRetainCycleDetector;
+			productReference = 84C00EF0A8AE5E3165B58459A635A7E6 /* libFBRetainCycleDetector.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB20B264ECAA9B23F297CC41A7D2BDE6 /* Pods-QDKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FE4B973BB1397319233B174384D60C /* Build configuration list for PBXNativeTarget "Pods-QDKeyboardDemo" */;
+			buildPhases = (
+				9F51FF445476FCF05B754621F2F2B45A /* Sources */,
+				7E967F8756567A9F18DB15CD14AA1B88 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A869C5404072361C748224DFBEB07F86 /* PBXTargetDependency */,
+				004CEAA1CF0D9DBFC914D33AB28F6FF3 /* PBXTargetDependency */,
+				D31D440B87B52983F17F19E5F2E9A918 /* PBXTargetDependency */,
+				5B8BCA364CE4DDDEDB05739892700952 /* PBXTargetDependency */,
+			);
+			name = "Pods-QDKeyboardDemo";
+			productName = "Pods-QDKeyboardDemo";
+			productReference = ECABF98C13818A3109211E3EA25C7B75 /* libPods-QDKeyboardDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9B0FB1053760CA42CC12959AF8F583C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				273537CB954A9131CBB041254924E3EF /* APNumberPad */,
+				AF9D6EADD8E530631B349B6FDC56DA82 /* FBRetainCycleDetector */,
+				9650B5ADCE86F1A055FAFC635284BDB5 /* IQKeyboardManager */,
+				AC139CEF10BCCB200972B4617F3CA14E /* MLeaksFinder */,
+				CB20B264ECAA9B23F297CC41A7D2BDE6 /* Pods-QDKeyboardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DDD5C9DC76B2C94157A920D3C55344B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9269F9F9D423C0AD26CB63768B9702 /* MLeakedObjectProxy.m in Sources */,
+				D35A2AF159DC59750024A4E0FE3C9268 /* MLeaksFinder-dummy.m in Sources */,
+				CBC1B26411F9AAB9EA6515A6D5E41A77 /* MLeaksMessenger.m in Sources */,
+				BC8D1E1CA8BE2B419B7195E7A69E222B /* NSObject+MemoryLeak.m in Sources */,
+				394E4786E43484A03A14B24EEEDDEB46 /* UIApplication+MemoryLeak.m in Sources */,
+				F4202ACC8086A5646CD46762130BC7AC /* UINavigationController+MemoryLeak.m in Sources */,
+				B855870A97C2E01523A09194A799B7CD /* UIPageViewController+MemoryLeak.m in Sources */,
+				A6CAA1ED9CE5B74B4032DD9AF2148F92 /* UISplitViewController+MemoryLeak.m in Sources */,
+				769C905D814E3186C69BAAC8D4E1EA0D /* UITabBarController+MemoryLeak.m in Sources */,
+				7E360ED04F6EA05BCDA329191C514820 /* UITouch+MemoryLeak.m in Sources */,
+				82237F220EACE01BA5DF9B6A6B99659A /* UIView+MemoryLeak.m in Sources */,
+				BDF34FCE367BAB9EC84BC5BDDC545CA6 /* UIViewController+MemoryLeak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3748F1E26AD1E44AB999B3F3C0A44526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43444F9273BC242437DE518EE99F85D /* IQBarButtonItem.m in Sources */,
+				39A508CB9BEFAFD0CF396E6A8D20EF5C /* IQKeyboardManager-dummy.m in Sources */,
+				DF2FCF6E1C61ED1C24D3E9245B1338EE /* IQKeyboardManager.m in Sources */,
+				05925630D8F4C3B45165B7632C7432C0 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				216E6D7ADF0FFF3318DB30C2CC565C5D /* IQNSArray+Sort.m in Sources */,
+				134FC60FAFF13893D34FCC2CDE67126F /* IQPreviousNextView.m in Sources */,
+				1D4879B92EA825397EDCF3A5B09C5EF2 /* IQTextView.m in Sources */,
+				EA73394A1F93D67EB80BD16F44D2753A /* IQTitleBarButtonItem.m in Sources */,
+				9AC4546D7D76789BE4580172B3ED50D8 /* IQToolbar.m in Sources */,
+				BC12241B094390F0F3D5EA4911EA4DF1 /* IQUIScrollView+Additions.m in Sources */,
+				9F30CF3623BE9CF4C8E7BAD708DDD0F6 /* IQUITextFieldView+Additions.m in Sources */,
+				15BF4C4C4C8C514DE2C2881629B1C801 /* IQUIView+Hierarchy.m in Sources */,
+				8DDD9AE2B9EDFE9E587127E6ECDFA44E /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				231F8E21B389D7F294D8231F016AC11A /* IQUIViewController+Additions.m in Sources */,
+				DF777C9C89EC416FC43CD2114B8BAC35 /* IQUIWindow+Hierarchy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDD866159690F865A1B14A18C3D753B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79496299F9E33DB64F51E40E33405B2F /* FBAssociationManager.mm in Sources */,
+				504C6A9CA3B9CFD4E2E2595036BC11F6 /* FBBlockStrongLayout.m in Sources */,
+				6B2E9D1E6DDF0D986360FA307A0C2F78 /* FBBlockStrongRelationDetector.m in Sources */,
+				AFF05CF1EF44A634F3CB81C5641DE41A /* FBClassStrongLayout.mm in Sources */,
+				1F78BD5984F89D675D4541D516D8C3D4 /* FBClassStrongLayoutHelpers.m in Sources */,
+				9145A5D0D9C9E682E06F976BDA3A364C /* FBIvarReference.m in Sources */,
+				4C52458CC2344D63AAA4D257D43347D1 /* FBNodeEnumerator.mm in Sources */,
+				6C0BBF3C08BB0B42E37C37CA4451C76E /* FBObjectGraphConfiguration.m in Sources */,
+				42F33D58D806327B7B7B0E9C9C483E0F /* FBObjectInStructReference.m in Sources */,
+				BDAA02215E7C17941C8809B97DA8449E /* FBObjectiveCBlock.m in Sources */,
+				080C4397B4D64AF70509A1918A4B3123 /* FBObjectiveCGraphElement.mm in Sources */,
+				C83D867C1FFD48E6E0BA6E4E12E4C82D /* FBObjectiveCNSCFTimer.mm in Sources */,
+				CFCFCAEC723F7C7203A5745AAB76C727 /* FBObjectiveCObject.m in Sources */,
+				FDC8320DCDA880A45D17834E374F921A /* FBRetainCycleDetector-dummy.m in Sources */,
+				B4D9DC87F0331C972074EE6039436AA2 /* FBRetainCycleDetector.mm in Sources */,
+				37F3B76DE217F19E4AD7CB5847F23715 /* FBRetainCycleUtils.m in Sources */,
+				AB42211108BC25AC8151D49CB26C98E9 /* FBStandardGraphEdgeFilters.mm in Sources */,
+				718AEECC5A749D827255C157D0235773 /* FBStructEncodingParser.mm in Sources */,
+				431BE63046007ADB32C73EAE1A253965 /* fishhook.c in Sources */,
+				50500B250A5ECC8303261CC19DE9B1FF /* Struct.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F51FF445476FCF05B754621F2F2B45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DDE447BD23A242AFDB98079530B6FF /* Pods-QDKeyboardDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D2330F91DAB603D575C188A345A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45F06D898A79EB79B9F0AFB92A6B614 /* APNumberButton.m in Sources */,
+				1717480E393FFE88F751C0D3A6912F38 /* APNumberPad-dummy.m in Sources */,
+				824CA9845309D126BC84B0140D5E8624 /* APNumberPad.m in Sources */,
+				C98C85B018F9C4074B540D3CCA7E55CC /* APNumberPadDefaultStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		004CEAA1CF0D9DBFC914D33AB28F6FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBRetainCycleDetector;
+			target = AF9D6EADD8E530631B349B6FDC56DA82 /* FBRetainCycleDetector */;
+			targetProxy = D50C683B6F86C5425696DFC4691F36C6 /* PBXContainerItemProxy */;
+		};
+		5B8BCA364CE4DDDEDB05739892700952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLeaksFinder;
+			target = AC139CEF10BCCB200972B4617F3CA14E /* MLeaksFinder */;
+			targetProxy = 6EA6FA9447E5AED90D534A7C30EC8E2F /* PBXContainerItemProxy */;
+		};
+		A869C5404072361C748224DFBEB07F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APNumberPad;
+			target = 273537CB954A9131CBB041254924E3EF /* APNumberPad */;
+			targetProxy = 1DF9089D30F8B03B09D7CDA6CD13803E /* PBXContainerItemProxy */;
+		};
+		D31D440B87B52983F17F19E5F2E9A918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = 9650B5ADCE86F1A055FAFC635284BDB5 /* IQKeyboardManager */;
+			targetProxy = 81F16EB1A45A1E78BB110079000CDCA3 /* PBXContainerItemProxy */;
+		};
+		DABC5697527E29B8D278DA0C9B660632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBRetainCycleDetector;
+			target = AF9D6EADD8E530631B349B6FDC56DA82 /* FBRetainCycleDetector */;
+			targetProxy = 7B0FB4C6C0B3BB3067207623C9F0E458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0C56EE8DC1B71C5E2C8298D102D8D7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C24A0004BF81CE59B66E897E8EBF55F /* APNumberPad.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APNumberPad/APNumberPad-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2654C170127CD2274E649C3E60007E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2BE9AC6B3D5BD051B780788689A6DA /* MLeaksFinder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MLeaksFinder/MLeaksFinder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2F1F358ADFE4B11DFEF068B875BC0CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD53E7BAC9B7406D19485ABA28A16F3C /* FBRetainCycleDetector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		30FC3B84FEF45D5B84F3EE7DF471BF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E9E73DEE9E919747282ACFCB511019 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6362807A51833C24D63CFEDC9ABDA822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD53E7BAC9B7406D19485ABA28A16F3C /* FBRetainCycleDetector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBRetainCycleDetector/FBRetainCycleDetector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD30F2F5041DDE809894BDD435A8AB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4898C354E589C644515061039355EDC2 /* Pods-QDKeyboardDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B344573FF41C7ABAB1EFAB5E83D36290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C24A0004BF81CE59B66E897E8EBF55F /* APNumberPad.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APNumberPad/APNumberPad-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ECBD7A1951E90E7778AFD17E1B0C0C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E9E73DEE9E919747282ACFCB511019 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ECE63EAF36995029186705EFEC639D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2BE9AC6B3D5BD051B780788689A6DA /* MLeaksFinder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MLeaksFinder/MLeaksFinder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF562C85899CDE56DC6C1C25865BE8B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23698FA07F9A72D728245537C49DAFC5 /* Pods-QDKeyboardDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259FE69886D71D4163FC508CF5F099B1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6362807A51833C24D63CFEDC9ABDA822 /* Debug */,
+				2F1F358ADFE4B11DFEF068B875BC0CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFCACCE7364EC7F86DAF625072B1695 /* Build configuration list for PBXNativeTarget "MLeaksFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE63EAF36995029186705EFEC639D23 /* Debug */,
+				2654C170127CD2274E649C3E60007E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FE4B973BB1397319233B174384D60C /* Build configuration list for PBXNativeTarget "Pods-QDKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF562C85899CDE56DC6C1C25865BE8B1 /* Debug */,
+				AD30F2F5041DDE809894BDD435A8AB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745A21CC29837052FA26B190C5A9E994 /* Build configuration list for PBXNativeTarget "APNumberPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B344573FF41C7ABAB1EFAB5E83D36290 /* Debug */,
+				0C56EE8DC1B71C5E2C8298D102D8D7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7541B338C29A841F18C894A4BC467CAC /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FC3B84FEF45D5B84F3EE7DF471BF51 /* Debug */,
+				ECBD7A1951E90E7778AFD17E1B0C0C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
