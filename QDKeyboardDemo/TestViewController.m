@@ -52,9 +52,6 @@
     [textView setTintColor:[UIColor redColor]];
     textView.layer.borderWidth = 1.0f;
     textView.layer.borderColor = [[UIColor grayColor] CGColor];
-    //    textView.clearButtonMode = UITextFieldViewModeWhileEditing;
-    //    textView.placeholder = @"这是一个纯数字输入框";
-    //    self.testTF = textField;
     [self.view addSubview:textView];
     textView.inputView = [[[QDKeyboard alloc] init]initWithStyle:QDKeyboardStyleNumberPad];
     
@@ -62,12 +59,8 @@
     [textView2 setTintColor:[UIColor redColor]];
     textView2.layer.borderWidth = 1.0f;
     textView2.layer.borderColor = [[UIColor grayColor] CGColor];
-    //    textView.clearButtonMode = UITextFieldViewModeWhileEditing;
-    //    textView.placeholder = @"这是一个纯数字输入框";
-    //    self.testTF = textField;
     [self.view addSubview:textView2];
     textView2.inputView = [[[QDKeyboard alloc] init]initWithStyle:QDKeyboardStyleDefault];
-    
     
 }
 
