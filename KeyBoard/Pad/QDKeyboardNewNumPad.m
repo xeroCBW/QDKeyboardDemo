@@ -9,6 +9,7 @@
 #import "QDKeyboardNewNumPad.h"
 #import "QDKeyboardBtn.h"
 #import "UIImage+ImageWithColor.h"
+#import "NSArray+Shuffle.h"
 
 #define row 4 //行
 #define col 3 //列
@@ -151,11 +152,15 @@
     if (_digitArr == nil) {
         //设置默认值
         NSMutableArray *tempArray = [NSMutableArray array];
-        for (int i = 0; i < 10; i ++) {
+        for (int i = 1; i < 10; i ++) {
             
             NSString *str = [NSString stringWithFormat:@"%zd",i];
             [tempArray addObject:str];
         }
+        [tempArray addObject:@"0"];
+        
+        //随机生成数组
+//        tempArray = tempArray.shuffled.mutableCopy;
         
         _digitArr = tempArray;
         
