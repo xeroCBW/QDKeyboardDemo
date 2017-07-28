@@ -16,7 +16,6 @@
 
 @property (nonatomic, strong) NSMutableArray *btnArray;
 @property (nonatomic, weak) UITextField *responder;
-
 @property (nonatomic ,strong) UIButton *wordSwitchBtn;
 @property (nonatomic ,strong) UIButton *deleteBtn;
 @property (nonatomic ,strong) UIButton *okBtn;

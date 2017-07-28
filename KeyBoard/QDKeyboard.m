@@ -18,6 +18,8 @@
 #define  iPhone6     ([[UIScreen mainScreen] bounds].size.height==667)
 #define  iPhone6plus ([[UIScreen mainScreen] bounds].size.height==736)
 
+#define  STATUSBAR_HEIGHT 20
+
 
 @interface QDKeyboard ()<QDKeyboardNumPadDelegate,QDKeyboardWordPadDelegate,QDKeyboardSymbolPadDelegate>{
     
@@ -114,6 +116,15 @@
 //                                            selector:@selector(didTakeScreenshot:)
 //                                                name:UIApplicationUserDidTakeScreenshotNotification
 //                                              object:nil];
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self
+                                            selector:@selector(keyboardWillShow:)
+                                                name:UIKeyboardWillShowNotification
+                                              object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self
+                                            selector:@selector(keyboardWillHide:)
+                                                name:UIKeyboardWillHideNotification
+                                              object:nil];
 }
 
 - (void)textDidBeginEditing:(NSNotification *)notification {
@@ -309,6 +320,61 @@
     }
 }
 
+- (void)keyboardWillShow:(NSNotification *)notification
+{
+    if (![self.textInput isFirstResponder]) {
+        return;
+    }
+    [self keyboardAnimationWithNotification:notification];
+}
+
+- (void)keyboardWillHide:(NSNotification *)notification
+{
+    if (![self.textInput isFirstResponder]) {
+        return;
+    }
+    [self keyboardAnimationWithNotification:notification];
+}
+
+- (void)keyboardAnimationWithNotification:(NSNotification *)notification
+{
+//    [self makeKeyAndVisible];
+//    NSDictionary *userInfo = [notification userInfo];
+//    CGRect kbFrame_end,kbFrame_begin;
+//    NSTimeInterval animationDuration;
+//    UIViewAnimationCurve animationCurve;
+//    [userInfo[UIKeyboardFrameEndUserInfoKey] getValue:&kbFrame_end];
+//    [userInfo[UIKeyboardFrameBeginUserInfoKey] getValue:&kbFrame_begin];
+//    [userInfo[UIKeyboardAnimationCurveUserInfoKey] getValue:&animationCurve];
+//    [userInfo[UIKeyboardAnimationDurationUserInfoKey] getValue:&animationDuration];
+//    
+//    self.frame = [self resizeFrameToAdjust:kbFrame_begin];
+//    [UIView animateWithDuration:animationDuration
+//                          delay:0
+//                        options:(animationCurve<<16)
+//                     animations:^{
+//                         self.frame = [self resizeFrameToAdjust:kbFrame_end];
+//                     }completion:^(BOOL finished) {
+//                         
+//                     }];
+//    if ([notification.name isEqualToString:UIKeyboardWillHideNotification]) {
+//        [self resignKeyWindow];
+//    }
+}
+
+- (CGRect)resizeFrameToAdjust:(CGRect)frame
+{
+    if ([[UIApplication sharedApplication] isStatusBarHidden] )
+    return frame;
+    
+//    if (SYSTEM_VERSION_LESS_THAN(@"7.0")) {
+        frame = CGRectMake(frame.origin.x,
+                           frame.origin.y - STATUSBAR_HEIGHT,
+                           frame.size.width,
+                           frame.size.height);
+//    }
+    return frame;
+}
 
 
 #pragma mark - lazy

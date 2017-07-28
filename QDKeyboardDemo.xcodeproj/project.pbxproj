@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6397A796A3948A06BDB924E7 /* libPods-QDKeyboardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 691E871C4D5BD12727C9F464 /* libPods-QDKeyboardDemo.a */; };
+		D0D71F151F2AE2DC0010E40E /* QDKeyboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D71F141F2AE2DC0010E40E /* QDKeyboardDemoTests.m */; };
+		D0D71F1E1F2AE8640010E40E /* NSArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D71F1D1F2AE8640010E40E /* NSArray+Shuffle.m */; };
 		D0E79EF91F29CF5B00F6A357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79EF81F29CF5B00F6A357 /* main.m */; };
 		D0E79EFC1F29CF5B00F6A357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79EFB1F29CF5B00F6A357 /* AppDelegate.m */; };
 		D0E79EFF1F29CF5B00F6A357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79EFE1F29CF5B00F6A357 /* ViewController.m */; };
@@ -31,9 +33,24 @@
 		D0E79F421F29D03D00F6A357 /* QDKeyBoardNormalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E79F341F29D03D00F6A357 /* QDKeyBoardNormalButton.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D0D71F171F2AE2DC0010E40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E79EEC1F29CF5B00F6A357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E79EF31F29CF5B00F6A357;
+			remoteInfo = QDKeyboardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		691E871C4D5BD12727C9F464 /* libPods-QDKeyboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QDKeyboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4A9275D35457F9BD20731E /* Pods-QDKeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDKeyboardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QDKeyboardDemo/Pods-QDKeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D71F121F2AE2DB0010E40E /* QDKeyboardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QDKeyboardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D71F141F2AE2DC0010E40E /* QDKeyboardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDKeyboardDemoTests.m; sourceTree = "<group>"; };
+		D0D71F161F2AE2DC0010E40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D71F1C1F2AE8640010E40E /* NSArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Shuffle.h"; sourceTree = "<group>"; };
+		D0D71F1D1F2AE8640010E40E /* NSArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Shuffle.m"; sourceTree = "<group>"; };
 		D0E79EF41F29CF5B00F6A357 /* QDKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E79EF81F29CF5B00F6A357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0E79EFA1F29CF5B00F6A357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +94,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D0D71F0F1F2AE2DB0010E40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0E79EF11F29CF5B00F6A357 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,11 +129,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D0D71F131F2AE2DC0010E40E /* QDKeyboardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D71F141F2AE2DC0010E40E /* QDKeyboardDemoTests.m */,
+				D0D71F161F2AE2DC0010E40E /* Info.plist */,
+			);
+			path = QDKeyboardDemoTests;
+			sourceTree = "<group>";
+		};
 		D0E79EEB1F29CF5B00F6A357 = {
 			isa = PBXGroup;
 			children = (
 				D0E79F131F29D03D00F6A357 /* KeyBoard */,
 				D0E79EF61F29CF5B00F6A357 /* QDKeyboardDemo */,
+				D0D71F131F2AE2DC0010E40E /* QDKeyboardDemoTests */,
 				D0E79EF51F29CF5B00F6A357 /* Products */,
 				67BB2A327FD590AED88EB1AC /* Pods */,
 				5968424B772CDE3E8FC83B4D /* Frameworks */,
@@ -120,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				D0E79EF41F29CF5B00F6A357 /* QDKeyboardDemo.app */,
+				D0D71F121F2AE2DB0010E40E /* QDKeyboardDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +204,8 @@
 			children = (
 				D0E79F151F29D03D00F6A357 /* UIImage+ImageWithColor.h */,
 				D0E79F161F29D03D00F6A357 /* UIImage+ImageWithColor.m */,
+				D0D71F1C1F2AE8640010E40E /* NSArray+Shuffle.h */,
+				D0D71F1D1F2AE8640010E40E /* NSArray+Shuffle.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -227,6 +264,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D0D71F111F2AE2DB0010E40E /* QDKeyboardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D71F191F2AE2DC0010E40E /* Build configuration list for PBXNativeTarget "QDKeyboardDemoTests" */;
+			buildPhases = (
+				D0D71F0E1F2AE2DB0010E40E /* Sources */,
+				D0D71F0F1F2AE2DB0010E40E /* Frameworks */,
+				D0D71F101F2AE2DB0010E40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D71F181F2AE2DC0010E40E /* PBXTargetDependency */,
+			);
+			name = QDKeyboardDemoTests;
+			productName = QDKeyboardDemoTests;
+			productReference = D0D71F121F2AE2DB0010E40E /* QDKeyboardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D0E79EF31F29CF5B00F6A357 /* QDKeyboardDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0E79F0B1F29CF5B00F6A357 /* Build configuration list for PBXNativeTarget "QDKeyboardDemo" */;
@@ -256,6 +311,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = chenbowen;
 				TargetAttributes = {
+					D0D71F111F2AE2DB0010E40E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0E79EF31F29CF5B00F6A357;
+					};
 					D0E79EF31F29CF5B00F6A357 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = Y6E87B57HA;
@@ -277,11 +337,19 @@
 			projectRoot = "";
 			targets = (
 				D0E79EF31F29CF5B00F6A357 /* QDKeyboardDemo */,
+				D0D71F111F2AE2DB0010E40E /* QDKeyboardDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D0D71F101F2AE2DB0010E40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0E79EF21F29CF5B00F6A357 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,6 +413,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D0D71F0E1F2AE2DB0010E40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D71F151F2AE2DC0010E40E /* QDKeyboardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0E79EF01F29CF5B00F6A357 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,6 +432,7 @@
 				D0E79EFF1F29CF5B00F6A357 /* ViewController.m in Sources */,
 				D0E79F361F29D03D00F6A357 /* QDKeyBoardBasePad.m in Sources */,
 				D0E79F3F1F29D03D00F6A357 /* CYRKeyboardButtonView.m in Sources */,
+				D0D71F1E1F2AE8640010E40E /* NSArray+Shuffle.m in Sources */,
 				D0E79F401F29D03D00F6A357 /* TurtleBezierPath.m in Sources */,
 				D0E79EFC1F29CF5B00F6A357 /* AppDelegate.m in Sources */,
 				D0E79F121F29D02400F6A357 /* TestViewController.m in Sources */,
@@ -370,6 +447,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D0D71F181F2AE2DC0010E40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E79EF31F29CF5B00F6A357 /* QDKeyboardDemo */;
+			targetProxy = D0D71F171F2AE2DC0010E40E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		D0E79F051F29CF5B00F6A357 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -382,6 +467,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D0D71F1A1F2AE2DC0010E40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QDKeyboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.QDKeyboardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QDKeyboardDemo.app/QDKeyboardDemo";
+			};
+			name = Debug;
+		};
+		D0D71F1B1F2AE2DC0010E40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QDKeyboardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.QDKeyboardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QDKeyboardDemo.app/QDKeyboardDemo";
+			};
+			name = Release;
+		};
 		D0E79F091F29CF5B00F6A357 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -503,6 +612,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D0D71F191F2AE2DC0010E40E /* Build configuration list for PBXNativeTarget "QDKeyboardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D71F1A1F2AE2DC0010E40E /* Debug */,
+				D0D71F1B1F2AE2DC0010E40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D0E79EEF1F29CF5B00F6A357 /* Build configuration list for PBXProject "QDKeyboardDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

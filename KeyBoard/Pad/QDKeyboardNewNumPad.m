@@ -17,11 +17,11 @@
 #define colorHighLight [UIColor colorWithRed:235.0/255.0 green:235.0/255.0 blue:235.0/255.0 alpha:0.9]
 
 @interface QDKeyboardNewNumPad ()<QDKeyboardBtnDelegate>
-@property (nonatomic, strong) NSMutableArray *btnArray;
-@property (nonatomic, weak) UITextField *responder;
-@property (nonatomic ,strong) NSMutableArray *digitArr;
-@property (nonatomic, readwrite,assign) QDKeyboardStyle style;
 
+@property (nonatomic, strong) NSMutableArray *btnArray;
+@property (nonatomic ,strong) NSMutableArray *digitArr;
+@property (nonatomic, weak) UITextField *responder;
+@property (nonatomic, readwrite,assign) QDKeyboardStyle style;
 @property (nonatomic ,strong) QDKeyBoardNormalButton *deleteButton;
 @property (nonatomic ,strong) QDKeyBoardNormalButton *placeHoldButton;
 
@@ -149,23 +149,15 @@
 - (NSMutableArray *)digitArr{
     
     if (_digitArr == nil) {
-        
-        NSMutableArray *shuffledAlphabet = [NSMutableArray array];
+        //设置默认值
+        NSMutableArray *tempArray = [NSMutableArray array];
         for (int i = 0; i < 10; i ++) {
             
             NSString *str = [NSString stringWithFormat:@"%zd",i];
-            [shuffledAlphabet addObject:str];
+            [tempArray addObject:str];
         }
         
-        
-        for (NSUInteger i = 0; i < [shuffledAlphabet count]; ++i) {
-            // Select a random element between i and end of array to swap with.
-            long nElements = [shuffledAlphabet count] - i;
-            long n = (random() % nElements) + i;
-            [shuffledAlphabet exchangeObjectAtIndex:i withObjectAtIndex:n];
-        }
-        
-        _digitArr = shuffledAlphabet;
+        _digitArr = tempArray;
         
     }
     return  _digitArr;
@@ -186,7 +178,6 @@
     return _placeHoldButton;
     
 }
-
 
 -(QDKeyBoardNormalButton *)deleteButton{
     

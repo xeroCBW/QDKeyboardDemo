@@ -184,6 +184,7 @@
     
     if (!_wordArray) {
         
+        //设置默认数据
         NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"word" ofType:@"plist"];
         NSArray *sybolArray = [NSArray arrayWithContentsOfFile:plistPath];
         _wordArray = sybolArray.mutableCopy;
